@@ -280,6 +280,19 @@ body {
   font-family: "Italiana";
 }
 
+.Kate-in-the-movie {
+  width: 30%;
+  padding: 50px;
+  border-radius: 50px;
+  position: absolute;
+  margin-left: 65%;
+  background-color: palevioletred;
+  font-size: 25px;
+  opacity: 0.5;
+  box-shadow: 0 0 20px rgb(136, 141, 169), 0 0 40px rgba(63, 35, 59, 0.6), 0 0 60px rgba(118, 103, 87, 0.6);
+  color: #ffffff;
+  font-family: "Italiana";
+}
 
 .casting-film {
   margin-left: 35%;
@@ -358,6 +371,18 @@ body {
   color: #fff;
 }
 
+.name-foto {
+  text-align: center;
+  width: 60%;
+  font-family: "Inter";
+  font-weight: 200;
+  padding-top: 155;
+  box-shadow: 0 0 20px rgb(86, 52, 117), 0 0 40px rgba(48, 103, 166, 0.6), 0 0 60px rgba(94, 155, 220, 0.6);
+  transform: scale(1.1);
+  padding-right: 733px;
+  font-size: 30px;
+  color: #fff;
+}
 
 .img {
   animation: look 10s ease-in-out;
