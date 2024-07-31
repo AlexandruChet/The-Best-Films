@@ -1,23 +1,127 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap");
-
 .header-wrpper {
   background-color: #012d63;
   width: 100%;
   height: 93px;
 }
+.header-wrpper .block {
+  margin-left: 50px;
+}
+.header-wrpper .block .nav {
+  margin-left: 25%;
+  display: flex;
+  -moz-column-gap: 15%;
+       column-gap: 15%;
+}
+.header-wrpper .block .nav .a-nav {
+  text-decoration: none;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.header-wrpper .block .nav .a-nav:hover {
+  color: #012d63;
+  height: 40px;
+  border-radius: 15px;
+  font-family: "Italiana";
+  background-color: #2584bb;
+  box-shadow: 0 0 20px rgb(63, 57, 57), 0 0 40px rgba(55, 88, 125, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
+  transform: scale(1.1);
+}
+.header-wrpper .block .nav .a-nav:nth-child(1) {
+  color: #fff;
+}
+.header-wrpper .block .nav .nav-a {
+  text-decoration: none;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #c7c7c7;
+}
+.header-wrpper .block .nav .nav-a:hover {
+  color: #012d63;
+  height: 40px;
+  font-family: "Italiana";
+  border-radius: 15px;
+  background-color: #f7ebeb;
+  box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
+  transform: scale(1.1);
+}
+
+.movies-wrapper {
+  background: url(https://i.teknolojioku.com/2/1280/720/storage/files/images/2018/10/24/titanik-gemisi-0RpD_cover.jpg) no-repeat center/cover;
+  width: 100%;
+  height: 858px;
+}
+.movies-wrapper .terrible-history {
+  margin-left: 15%;
+  font-family: "Italiana";
+  font-size: 40px;
+  color: #fbfbfb;
+}
+.movies-wrapper .real-history {
+  margin-left: 20%;
+  color: #c7c7c7;
+  font-size: 30px;
+  font-family: "Italiana";
+}
+.movies-wrapper .death-history {
+  margin-left: 25%;
+  color: #705e5e;
+  font-size: 25px;
+  font-family: "Italiana";
+}
+.movies-wrapper .chances-of-success {
+  margin-top: 30%;
+  position: absolute;
+  margin-left: 15%;
+  font-family: "Italiana";
+  width: 30%;
+  font-size: 30px;
+  color: #c7c7c7;
+}
+.movies-wrapper .real-disaster {
+  margin-top: 25%;
+  margin-left: 70%;
+  font-family: "Italiana";
+  width: 30%;
+  font-size: 30px;
+  color: #c7c7c7;
+}
+.movies-wrapper .dropdown .dropbtn {
+  /* Add styles for your drop button */
+}
+.movies-wrapper .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.movies-wrapper .dropdown .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.movies-wrapper .dropdown .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.movies-wrapper .dropdown:hover .dropdown-content {
+  display: block;
+}
 
 .casting-wrapper {
-  background: url("https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/wNmckEM4uQVEz36gg4kkOIzKYEvoPr.jpg")
-    no-repeat center/ cover;
-  box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6),
-    0 0 60px rgba(171, 198, 226, 0.6);
+  background: url("https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/wNmckEM4uQVEz36gg4kkOIzKYEvoPr.jpg") no-repeat center/cover;
+  box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
   height: 900px;
   width: 100%;
 }
 
 .director-titanic-wrapper {
-  background: url(https://th.bing.com/th/id/R.f44e366c375f5f8f18d461b8484f0bc6?rik=ZEv%2fDH1f%2bProoQ&pid=ImgRaw&r=0)
-    no-repeat center/ cover;
+  background: url(https://th.bing.com/th/id/R.f44e366c375f5f8f18d461b8484f0bc6?rik=ZEv%2fDH1f%2bProoQ&pid=ImgRaw&r=0) no-repeat center/cover;
   height: 600px;
 }
 
@@ -26,56 +130,40 @@ body {
   animation: creation 1.5s ease-in-out;
 }
 
-.block {
-  margin-left: 50px;
-}
-
 .Titanic-wrapper {
   width: 100%;
   height: 750px;
   background-color: #012d63;
 }
 
-.movies-wrapper {
-  background: url(https://i.teknolojioku.com/2/1280/720/storage/files/images/2018/10/24/titanik-gemisi-0RpD_cover.jpg)
-    no-repeat center/ cover;
-  width: 100%;
-  height: 858px;
-}
-
 .james-wrapper {
-  background: url(https://th.bing.com/th/id/R.7e9cc821ce89f3d327b0b316c4b6e309?rik=zK%2fOkMKP4fX%2f9w&pid=ImgRaw&r=0)
-    no-repeat center/ cover;
+  background: url(https://th.bing.com/th/id/R.7e9cc821ce89f3d327b0b316c4b6e309?rik=zK%2fOkMKP4fX%2f9w&pid=ImgRaw&r=0) no-repeat center/cover;
   height: 600px;
-  box-shadow: 0 0 20px rgb(4, 4, 4), 0 0 40px rgba(37, 38, 39, 0.6),
-    0 0 60px rgba(136, 143, 152, 0.6);
+  box-shadow: 0 0 20px rgb(4, 4, 4), 0 0 40px rgba(37, 38, 39, 0.6), 0 0 60px rgba(136, 143, 152, 0.6);
 }
 
 .footer-wrapper {
+  height: 50rem;
   background-color: #0b1623;
-  box-shadow: 0 0 20px rgb(80, 75, 75), 0 0 40px rgba(56, 63, 69, 0.6),
-    0 0 60px rgba(171, 198, 226, 0.6);
+  box-shadow: 0 0 20px rgb(80, 75, 75), 0 0 40px rgba(56, 63, 69, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
 }
+
 @keyframes look {
   0% {
     background-color: #f7ebeb;
-    box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6),
-      0 0 60px rgba(171, 198, 226, 0.6);
+    box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
     transform: scale(1.1);
     opacity: 0;
   }
-
   100% {
     opacity: 1;
     background-color: #f7ebeb;
-    box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6),
-      0 0 60px rgba(171, 198, 226, 0.6);
+    box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
     transform: scale(1.1);
     height: 600px;
     width: 30%;
   }
 }
-
 @keyframes creation {
   0% {
     opacity: 0;
@@ -86,21 +174,6 @@ body {
     transform: scale(1);
   }
 }
-
-.terrible-history {
-  margin-left: 15%;
-  font-family: "Italiana";
-  font-size: 40px;
-  color: #fbfbfb;
-}
-
-.real-history {
-  margin-left: 20%;
-  color: #c7c7c7;
-  font-size: 30px;
-  font-family: "Italiana";
-}
-
 .dropbtn {
   background-color: #005eff;
   color: rgb(0, 0, 0);
@@ -193,68 +266,6 @@ body {
   font-family: "Italiana";
 }
 
-.death-history {
-  margin-left: 25%;
-  color: #705e5e;
-  font-size: 25px;
-  font-family: "Italiana";
-}
-
-.real-disaster {
-  margin-top: 25%;
-  margin-left: 70%;
-  font-family: "Italiana";
-  width: 30%;
-  font-size: 30px;
-  color: #c7c7c7;
-}
-
-.chances-of-success {
-  margin-top: 30%;
-  position: absolute;
-  margin-left: 15%;
-  font-family: "Italiana";
-  width: 30%;
-  font-size: 30px;
-  color: #c7c7c7;
-}
-
-.nav {
-  margin-left: 25%;
-  display: flex;
-  column-gap: 15%;
-}
-
-.nav-a {
-  text-decoration: none;
-  margin-top: 30px;
-  font-weight: 400;
-  font-size: 24px;
-  color: #c7c7c7;
-}
-
-.nav-a:hover {
-  color: #012d63;
-  height: 40px;
-  font-family: "Italiana";
-  border-radius: 15px;
-  background-color: #f7ebeb;
-  box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6),
-    0 0 60px rgba(171, 198, 226, 0.6);
-  transform: scale(1.1);
-}
-
-.a-nav:hover {
-  color: #012d63;
-  height: 40px;
-  border-radius: 15px;
-  font-family: "Italiana";
-  background-color: #2584bb;
-  box-shadow: 0 0 20px rgb(63, 57, 57), 0 0 40px rgba(55, 88, 125, 0.6),
-    0 0 60px rgba(171, 198, 226, 0.6);
-  transform: scale(1.1);
-}
-
 .Leonardo-in-the-movie {
   width: 30%;
   margin-top: 300px;
@@ -264,26 +275,11 @@ body {
   background-color: #012d63;
   font-size: 25px;
   opacity: 0.5;
-  box-shadow: 0 0 20px rgb(136, 141, 169), 0 0 40px rgba(63, 35, 59, 0.6),
-    0 0 60px rgba(84, 4, 255, 0.6);
+  box-shadow: 0 0 20px rgb(136, 141, 169), 0 0 40px rgba(63, 35, 59, 0.6), 0 0 60px rgba(84, 4, 255, 0.6);
   color: #ffffff;
   font-family: "Italiana";
 }
 
-.Kate-in-the-movie {
-  width: 30%;
-  padding: 50px;
-  border-radius: 50px;
-  position: absolute;
-  margin-left: 65%;
-  background-color: palevioletred;
-  font-size: 25px;
-  opacity: 0.5;
-  box-shadow: 0 0 20px rgb(136, 141, 169), 0 0 40px rgba(63, 35, 59, 0.6),
-    0 0 60px rgba(118, 103, 87, 0.6);
-  color: #ffffff;
-  font-family: "Italiana";
-}
 
 .casting-film {
   margin-left: 35%;
@@ -291,14 +287,6 @@ body {
   font-size: 40px;
   font-family: "Inter";
   color: #ffffff;
-}
-
-.a-nav:nth-child(1) {
-  text-decoration: none;
-  margin-top: 30px;
-  font-weight: 400;
-  font-size: 24px;
-  color: #fff;
 }
 
 .gallery img {
@@ -310,8 +298,7 @@ body {
 }
 
 .Supporting-actors-wrapper {
-  background: url(https://2.bp.blogspot.com/-VLQUpHqxms4/UUqQIbO6hzI/AAAAAAAAA4g/Mo8OhoaHMu0/s1600/Titanic+Ship.jpg)
-    no-repeat center/ cover;
+  background: url(https://2.bp.blogspot.com/-VLQUpHqxms4/UUqQIbO6hzI/AAAAAAAAA4g/Mo8OhoaHMu0/s1600/Titanic+Ship.jpg) no-repeat center/cover;
   height: 600px;
 }
 
@@ -325,7 +312,8 @@ body {
 
 .casting-titanic-actors {
   display: flex;
-  column-gap: 15%;
+  -moz-column-gap: 15%;
+       column-gap: 15%;
 }
 
 .billy-zane-actor {
@@ -370,19 +358,6 @@ body {
   color: #fff;
 }
 
-.name-foto {
-  text-align: center;
-  width: 60%;
-  font-family: "Inter";
-  font-weight: 200;
-  padding-top: 155;
-  box-shadow: 0 0 20px rgb(86, 52, 117), 0 0 40px rgba(48, 103, 166, 0.6),
-    0 0 60px rgba(94, 155, 220, 0.6);
-  transform: scale(1.1);
-  padding-right: 733px;
-  font-size: 30px;
-  color: #fff;
-}
 
 .img {
   animation: look 10s ease-in-out;
@@ -392,6 +367,7 @@ body {
 .block {
   margin-left: 50px;
 }
+
 .div-p {
   text-align: center;
   padding-top: 5%;
@@ -403,6 +379,7 @@ body {
   font-size: 50px;
   color: #fff;
 }
+
 .div-htwo {
   padding-top: 2%;
   transform: scale(1.1);
@@ -417,7 +394,8 @@ body {
 }
 
 .treiler-titanic {
-  margin-left: 35%;
-  width: 30rem;
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 70rem;
   height: 30rem;
-}
+}/*# sourceMappingURL=style.css.map */
