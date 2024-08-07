@@ -396,7 +396,6 @@ body {
 .div-p {
   text-align: center;
   padding-top: 5%;
-  width: 100%;
   font-family: "Italiana";
   font-weight: 200;
   padding-top: 155;
@@ -413,7 +412,6 @@ body {
   font-family: "Italiana";
   font-weight: 200;
   padding-top: 155;
-  padding-right: 733px;
   font-size: 40px;
   color: #705e5e;
 }
@@ -423,4 +421,20 @@ body {
   margin-left: 15%;
   width: 70rem;
   height: 30rem;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.footer .footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+}
+.footer .footer-icons .footer-icon {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

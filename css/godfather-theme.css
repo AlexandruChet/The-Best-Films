@@ -50,4 +50,20 @@
   font-weight: 400;
   font-size: 24px;
   color: #fff;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.footer .footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+}
+.footer .footer-icons .footer-icon {
+  text-decoration: none;
 }/*# sourceMappingURL=godfather-theme.css.map */

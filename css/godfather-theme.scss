@@ -54,3 +54,18 @@
   color: #fff;
 }
 
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+& .footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  & .footer-icon {
+    text-decoration: none;
+  }
+}
+}
