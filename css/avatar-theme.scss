@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap');
 
+img{
+	object-fit: cover;
+}
+
 .header-wrpper {
 	background-color: #012d63;
 	width: 100%;
@@ -250,6 +254,7 @@
 				width: 25rem;
 				height: 25rem;
 				border-radius: 30px;
+				object-fit: cover;
 			}
 		}
 	}

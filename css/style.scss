@@ -468,7 +468,12 @@ body {
 		align-items: center;
 		gap: 20%;
 		& .footer-icon {
+			background-color: white;
 			text-decoration: none;
+			& img {
+				height: 100px;
+				width: 100px;
+			}
 		}
 	}
 }

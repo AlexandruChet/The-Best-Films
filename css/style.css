@@ -435,6 +435,10 @@ body {
   align-items: center;
   gap: 20%;
 }
+.footer-img{
+  width:50px;
+  height:50px;
+}
 .footer .footer-icons .footer-icon {
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

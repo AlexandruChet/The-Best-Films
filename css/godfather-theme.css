@@ -52,6 +52,56 @@
   color: #fff;
 }
 
+.movies-wrapper {
+  height: 50rem;
+  width: 100%;
+  background: url(/img/godfather.webp) no-repeat center/cover;
+}
+.movies-wrapper h1 {
+  color: #fff;
+  margin-left: 5%;
+  padding-top: 3%;
+  font-size: 100px;
+}
+.movies-wrapper h2 {
+  color: #c7c7c7;
+  margin-left: 10%;
+  font-size: 100px;
+  margin-top: 35%;
+}
+
+.michael-carleone {
+  background: url("https://i.pinimg.com/originals/24/3b/9f/243b9f6a4354dc134d3870aedf21588e.jpg") no-repeat center/cover;
+  height: 80rem;
+  width: 100%;
+}
+.michael-carleone section h1 {
+  color: #fff;
+  margin-left: 10%;
+  padding-top: 5%;
+  font-size: 50px;
+}
+.michael-carleone section h2 {
+  color: #000000;
+  text-shadow: 2px 2px #fff;
+  margin-left: 15%;
+  padding-top: 2%;
+  font-size: 50px;
+}
+.michael-carleone section h3 {
+  text-shadow: 2px 2px #000000;
+  color: #fff;
+  font-size: 50px;
+  margin-top: 50%;
+  margin-left: 50%;
+}
+.michael-carleone section p {
+  text-shadow: 2px 2px #000000;
+  color: #f7ebeb;
+  font-size: 30px;
+  margin-left: 50%;
+}
+
 .footer {
   background-color: #333;
   color: #fff;

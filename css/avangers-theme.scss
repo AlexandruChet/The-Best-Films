@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap');
 
+img{
+	object-fit: cover;
+}
+
 .header-wrpper {
 	background-color: #012d63;
 	width: 100%;
@@ -97,9 +101,9 @@
 	& .avengers-content {
 		padding: 150px;
 	}
-	
-	& .avengers-images{
-		& h1{
+
+	& .avengers-images {
+		& h1 {
 			padding-top: 5%;
 			font-size: 150px;
 			color: #fff;
@@ -115,52 +119,51 @@
 	}
 }
 
-.lesson-wrapper{
-    height: 35rem;
-    width: 100%;
-    background: #382b36;
-    & .headline-text{
-        position: absolute;
-        color: #ffffff;
-        margin-left: 5%;
-        font-size: 80px;
-    }
-    & .headline-p{
-        position: absolute;
-        margin-top: 7%;
-        width: 30%;
-        margin-left: 10%;
-        font-size: 25px;
-        color: #ffffff;
-    }
-    & .img{
-        float: right;
-        height: 100%;
-        width: 50%;
-    }
+.lesson-wrapper {
+	height: 35rem;
+	width: 100%;
+	background: #382b36;
+	display: flex;
+	& .headline-text {
+		color: #ffffff;
+		margin-top: 3%;
+		margin-left: 10%;
+		font-size: 80px;
+	}
+	& .headline-p {
+		margin-top: 5%;
+		width: 50%;
+		margin-left: 10%;
+		font-size: 25px;
+		color: #ffffff;
+	}
+	& .img {
+		height: 100%;
+		width: 50%;
+	}
 }
 
-.epic-moments{
+.epic-moments {
 	background-color: #1d1b1b;
 	height: 100%;
 	width: 100%;
-	& ul{
+	& ul {
 		display: flex;
 		margin-left: 5%;
-		& li{
+		& li {
 			width: 30%;
 			margin-right: 60px;
-			& img{
+			& img {
 				margin-top: 15%;
 				width: 100%;
 				height: 70%;
 			}
-			& h3{
+			& h3 {
 				margin-top: 3%;
 				font-size: 30px;
 				color: #ffffff;
 			}
-			& p{
+			& p {
 				margin-top: 2%;
 				color: #ffffff;
 				font-size: 20px;
@@ -169,12 +172,73 @@
 	}
 }
 
+.last-battle {
+	padding-top: 5%;
+	padding-bottom: 10%;
+	width: 100%;
+	height: 100%;
+	background-color: #1d1b1b;
+	display: flex;
+	& img {
+		border: 2px solid #ffffff;
+		width: 50%;
+		height: 80%;
+		margin-left: 4%;
+		border-radius: 30px;
+	}
+	& p {
+		font-family: 'Italiana';
+		width: 40%;
+		position: absolute;
+		font-size: 20px;
+		margin-top: 30%;
+		color: #ffffff;
+		margin-left: 5%;
+	}
+	& section {
+		& h1 {
+			font-family: 'Inter';
+			color: #ffffff;
+			margin-top: 5%;
+			font-size: 100px;
+		}
+		& h2 {
+			font-family: 'Italiana';
+			margin-left: 35%;
+			font-size: 25px;
+			position: absolute;
+			color: #ffffff;
+		}
+		& h3 {
+			font-family: 'Italiana';
+			position: absolute;
+			font-size: 25px;
+			margin-top: 1.5%;
+			margin-left: 35%;
+			color: #c7c7c7;
+		}
+		& h4 {
+			font-family: 'Inter';
+			color: #c7c7c7;
+			font-size: 50px;
+			margin-left: 5%;
+		}
+		& p {
+			font-family: 'Inter';
+			color: #ffffff;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 2%;
+			font-size: 30px;
+		}
+	}
+}
 
 .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
 	& .footer-icons {
 		display: flex;
 		justify-content: center;
