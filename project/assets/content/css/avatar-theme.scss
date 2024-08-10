@@ -132,12 +132,25 @@ img{
 
 .text-avatar-ul-li:nth-child(1) {
 	padding-top: 50px;
+	p{
+		background-color: rgba(255, 255, 255, 0.3);
+		backdrop-filter: 10px;
+		border-radius: 10px;
+		padding: 20px;
+	}
 }
 
 .text-avatar-ul-li:nth-child(2) {
 	width: 50%;
 	height: 20rem;
 	margin-left: 60%;
+	border-radius: 30px;
+	p{
+		background-color: rgba(255, 255, 255, 0.3);
+		backdrop-filter: 10px;
+		border-radius: 10px;
+		padding: 20px;
+	}
 }
 
 .text-avatar-ul-li:hover {
@@ -295,6 +308,28 @@ img{
 		gap: 20%;
 		& .footer-icon {
 			text-decoration: none;
+			& img {
+				height: 100px;
+				width: 100px;
+			}
 		}
 	}
+}
+
+@media (max-width:1200px){
+	.end .end-wrapper .ul-end .camera {
+		width: 20rem;
+		height: 25rem;
+		border-radius: 30px;
+		-o-object-fit: cover;
+		   object-fit: cover;
+	  }
+	  .headline-p{
+		font-size: 30px;
+		width: 200px;
+		text-shadow: 2px 2px #000000;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	  }
 }

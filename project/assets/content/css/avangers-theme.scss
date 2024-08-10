@@ -246,6 +246,13 @@ img{
 		gap: 20%;
 		& .footer-icon {
 			text-decoration: none;
+			& img {
+				height: 100px;
+				width: 100px;
+			}
 		}
 	}
 }
+@media (max-width:1200px){
+	
+  }

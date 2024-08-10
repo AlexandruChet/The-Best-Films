@@ -128,7 +128,6 @@
 			display: block;
 		}
 	}
-}
 
 .casting-wrapper {
 	background: url('https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/wNmckEM4uQVEz36gg4kkOIzKYEvoPr.jpg')
@@ -468,7 +467,6 @@ body {
 		align-items: center;
 		gap: 20%;
 		& .footer-icon {
-			background-color: white;
 			text-decoration: none;
 			& img {
 				height: 100px;
@@ -477,3 +475,45 @@ body {
 		}
 	}
 }
+
+@media (max-width:1200px){
+	.gallery{
+	  width: 90%;
+	  display: flex;
+	}
+	.gallery img{
+	  border-radius: 50px;
+	}
+	  .treiler-titanic {
+	  margin-top: 1%;
+	  margin-left: 5%;
+	  width: 60rem;
+	  height: 25rem;
+	  border-radius: 50px;
+	  border: 2px solid #ffffff;
+	}
+  
+	.name-foto{
+	  width: 30%;
+	}
+	.Kate-in-the-movie{
+	  margin-top: 25%;
+	  margin-left: 60%;
+	}
+	.succeed{
+		font-size: 30px;
+		width: 600px;
+		text-shadow: 2px 2px #000000;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.create-titanik{
+		font-size: 30px;
+		width: 600px;
+		text-shadow: 2px 2px #000000;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+  }

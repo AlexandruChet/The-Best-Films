@@ -242,4 +242,8 @@ img {
 }
 .footer .footer-icons .footer-icon {
   text-decoration: none;
+}
+.footer .footer-icons .footer-icon img {
+  height: 100px;
+  width: 100px;
 }/*# sourceMappingURL=avangers-theme.css.map */

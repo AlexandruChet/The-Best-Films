@@ -89,10 +89,7 @@
   font-size: 30px;
   color: #c7c7c7;
 }
-.movies-wrapper .dropdown .dropbtn {
-  /* Add styles for your drop button */
-}
-.movies-wrapper .dropdown .dropdown-content {
+.movies-wrapper .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -100,16 +97,16 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-.movies-wrapper .dropdown .dropdown-content a {
+.movies-wrapper .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-.movies-wrapper .dropdown .dropdown-content a:hover {
+.movies-wrapper .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
-.movies-wrapper .dropdown:hover .dropdown-content {
+.movies-wrapper:hover .dropdown-content {
   display: block;
 }
 
@@ -423,6 +420,13 @@ body {
   height: 30rem;
 }
 
+.download-button {
+  color: #fff;
+  font-size: 1.8em;
+  background-color: #0b1623;
+  padding: 20px;
+}
+
 .footer {
   background-color: #333;
   color: #fff;
@@ -435,10 +439,51 @@ body {
   align-items: center;
   gap: 20%;
 }
-.footer-img{
-  width:50px;
-  height:50px;
-}
 .footer .footer-icons .footer-icon {
   text-decoration: none;
+}
+.footer .footer-icons .footer-icon img {
+  height: 100px;
+  width: 100px;
+}
+
+@media (max-width: 1200px) {
+  .gallery {
+    width: 90%;
+    display: flex;
+  }
+  .gallery img {
+    border-radius: 50px;
+  }
+  .treiler-titanic {
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 60rem;
+    height: 25rem;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+  }
+  .name-foto {
+    width: 30%;
+  }
+  .Kate-in-the-movie {
+    margin-top: 25%;
+    margin-left: 60%;
+  }
+  .succeed {
+    font-size: 30px;
+    width: 600px;
+    text-shadow: 2px 2px #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .create-titanik {
+    font-size: 30px;
+    width: 600px;
+    text-shadow: 2px 2px #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }/*# sourceMappingURL=style.css.map */
