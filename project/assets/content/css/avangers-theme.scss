@@ -184,7 +184,7 @@ img{
 		width: 50%;
 		height: 80%;
 		margin-left: 4%;
-		border-radius: 30px;
+		border-radius: 30px
 	}
 	& p {
 		font-family: 'Italiana';
@@ -254,5 +254,30 @@ img{
 	}
 }
 @media (max-width:1200px){
-	
+	.last-battle{
+		height: 30rem;
+		& h1{
+			margin-left: 5%;
+		}
+		& h2{
+			opacity: 0;
+		}
+		& h3{
+			opacity: 0;
+		}
+		& p{
+			margin-top: 35%;
+		}
+		& h4{
+			margin-top: 10%;
+		}
+	}
+	.header-wrpper {
+		background-color: #012d63;
+		width: 100%;
+		height: 150px;
+		& nav{
+			margin-left: 15%;
+		}
+	}
   }

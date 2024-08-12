@@ -4,27 +4,24 @@
   width: 100%;
   height: 93px;
 }
-
-.block {
+.header-wrpper .block {
   margin-left: 50px;
 }
-
-.nav {
+.header-wrpper .block .nav {
   margin-left: 25%;
   display: flex;
   -moz-column-gap: 15%;
        column-gap: 15%;
+  flex-wrap: wrap;
 }
-
-.nav-a {
+.header-wrpper .block .nav .nav-a {
   text-decoration: none;
   margin-top: 30px;
   font-weight: 400;
   font-size: 24px;
   color: #c7c7c7;
 }
-
-.nav-a:hover {
+.header-wrpper .block .nav .nav-a:hover {
   color: #012d63;
   height: 40px;
   font-family: "Italiana";
@@ -33,8 +30,7 @@
   box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
   transform: scale(1.1);
 }
-
-.a-nav:hover {
+.header-wrpper .block .nav .a-nav:hover {
   color: #012d63;
   height: 40px;
   border-radius: 15px;
@@ -43,8 +39,7 @@
   box-shadow: 0 0 20px rgb(63, 57, 57), 0 0 40px rgba(55, 88, 125, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
   transform: scale(1.1);
 }
-
-.a-nav:nth-child(1) {
+.header-wrpper .block .nav .a-nav:nth-child(1) {
   text-decoration: none;
   margin-top: 30px;
   font-weight: 400;
@@ -211,5 +206,24 @@
 @media (max-width: 1200px) {
   .fredo-carleone {
     background-color: #333;
+  }
+  .sally-carleone ul img {
+    margin-top: 5rem;
+    height: 40rem;
+  }
+  .sally-carleone ul article p {
+    opacity: 0;
+  }
+  .goodfather-title h1 {
+    font-size: 200px;
+  }
+  .header-wrpper {
+    background-color: #012d63;
+    width: 100%;
+    height: 150px;
+  }
+  .header-wrpper nav {
+    width: 60%;
+    margin-left: 15%;
   }
 }/*# sourceMappingURL=godfather-theme.css.map */

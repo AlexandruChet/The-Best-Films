@@ -333,4 +333,12 @@ img {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .header-wrpper {
+    background-color: #012d63;
+    width: 100%;
+    height: 150px;
+  }
+  .header-wrpper nav {
+    margin-left: 15%;
+  }
 }/*# sourceMappingURL=avatar-theme.css.map */

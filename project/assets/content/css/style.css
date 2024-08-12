@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap");
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  width: 100%;
+  animation: creation 0.8s;
+}
+
 .header-wrpper {
   background-color: #012d63;
   width: 100%;
@@ -86,61 +96,39 @@
   margin-left: 70%;
   font-family: "Italiana";
   width: 30%;
-  font-size: 30px;
+  font-size: 22px;
   color: #c7c7c7;
 }
-.movies-wrapper .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-.movies-wrapper .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.movies-wrapper .dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-.movies-wrapper:hover .dropdown-content {
-  display: block;
+.movies-wrapper .dropdown .btn {
+  margin-left: 70%;
 }
 
 .casting-wrapper {
   background: url("https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/wNmckEM4uQVEz36gg4kkOIzKYEvoPr.jpg") no-repeat center/cover;
   box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
-  height: 900px;
+  height: 1000px;
   width: 100%;
 }
 
 .director-titanic-wrapper {
   background: url(https://th.bing.com/th/id/R.f44e366c375f5f8f18d461b8484f0bc6?rik=ZEv%2fDH1f%2bProoQ&pid=ImgRaw&r=0) no-repeat center/cover;
-  height: 600px;
-}
-
-body {
-  width: 100%;
-  animation: creation 1.5s ease-in-out;
+  height: 50rem;
 }
 
 .Titanic-wrapper {
   width: 100%;
-  height: 750px;
+  height: 850px;
   background-color: #012d63;
 }
 
 .james-wrapper {
   background: url(https://th.bing.com/th/id/R.7e9cc821ce89f3d327b0b316c4b6e309?rik=zK%2fOkMKP4fX%2f9w&pid=ImgRaw&r=0) no-repeat center/cover;
-  height: 600px;
+  height: 700px;
   box-shadow: 0 0 20px rgb(4, 4, 4), 0 0 40px rgba(37, 38, 39, 0.6), 0 0 60px rgba(136, 143, 152, 0.6);
 }
 
 .footer-wrapper {
-  height: 50rem;
+  height: 70rem;
   background-color: #0b1623;
   box-shadow: 0 0 20px rgb(80, 75, 75), 0 0 40px rgba(56, 63, 69, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
 }
@@ -171,49 +159,6 @@ body {
     transform: scale(1);
   }
 }
-.dropbtn {
-  background-color: #005eff;
-  color: rgb(0, 0, 0);
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover,
-.dropbtn:focus {
-  background-color: #000000;
-  color: #f1f1f1;
-  border-radius: 20px;
-}
-
-.dropdown {
-  margin-top: 2%;
-  margin-left: 70%;
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 360px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
 .show {
   display: block;
 }
@@ -223,12 +168,22 @@ body {
   position: absolute;
   color: #a369c0;
   font-size: 20px;
+  background-color: rgba(155, 139, 139, 0.3);
+  -webkit-backdrop-filter: 10px;
+          backdrop-filter: 10px;
+  border-radius: 30px;
+  padding: 30px;
   font-family: "Italiana";
 }
 
 .child-cameron {
+  background-color: rgba(159, 144, 144, 0.482);
+  text-shadow: 2px 2px #ffffff;
+  -webkit-backdrop-filter: 10px;
+          backdrop-filter: 10px;
+  padding: 30px;
+  border-radius: 30px;
   margin-left: 65%;
-  padding-top: 1%;
   width: 30%;
   position: absolute;
   color: #a369c0;
@@ -237,8 +192,13 @@ body {
 }
 
 .perfectionism {
+  background-color: rgba(77, 64, 64, 0.3);
+  -webkit-backdrop-filter: 10px;
+          backdrop-filter: 10px;
+  border-radius: 30px;
   margin-left: 15%;
-  padding-top: 25%;
+  margin-top: 25%;
+  padding: 50px;
   width: 30%;
   position: absolute;
   color: #ffffff;
@@ -309,18 +269,26 @@ body {
 
 .Supporting-actors-wrapper {
   background: url(https://2.bp.blogspot.com/-VLQUpHqxms4/UUqQIbO6hzI/AAAAAAAAA4g/Mo8OhoaHMu0/s1600/Titanic+Ship.jpg) no-repeat center/cover;
-  height: 600px;
+  height: 800px;
 }
 
 .Supporting-actors {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: 10px;
+          backdrop-filter: 10px;
+  border-radius: 10px;
+  padding: 20px;
   font-size: 50px;
   font-family: "Italiana";
   margin-left: 5%;
   padding-top: 3%;
-  color: #c7c7c7;
+  color: #fff;
+  text-shadow: 2px 2px #000000;
 }
 
 .casting-titanic-actors {
+  padding-top: 10%;
   display: flex;
   -moz-column-gap: 15%;
        column-gap: 15%;
@@ -332,10 +300,10 @@ body {
   margin-top: 3%;
   font-weight: 400;
   border-radius: 10px;
-  height: 400px;
+  height: 550px;
   font-size: 25px;
   background-color: #2584bb;
-  padding: 10px;
+  padding: 30px;
   width: 40%;
   color: #fff;
 }
@@ -346,7 +314,7 @@ body {
   font-family: "Inter";
   font-weight: 400;
   border-radius: 10px;
-  height: 400px;
+  height: 500px;
   font-size: 25px;
   background-color: #1e1a4f;
   padding: 10px;
@@ -360,7 +328,7 @@ body {
   margin-top: 3%;
   font-weight: 400;
   border-radius: 10px;
-  height: 400px;
+  height: 500px;
   font-size: 25px;
   background-color: #272c2f;
   padding: 10px;
@@ -369,20 +337,19 @@ body {
 }
 
 .name-foto {
-  text-align: center;
-  width: 60%;
+  margin-left: 5%;
+  border-radius: 30px;
+  width: 90%;
   font-family: "Inter";
-  font-weight: 200;
-  padding-top: 155;
+  font-weight: 200px;
   box-shadow: 0 0 20px rgb(86, 52, 117), 0 0 40px rgba(48, 103, 166, 0.6), 0 0 60px rgba(94, 155, 220, 0.6);
   transform: scale(1.1);
-  padding-right: 733px;
   font-size: 30px;
   color: #fff;
 }
 
 .img {
-  animation: look 10s ease-in-out;
+  animation: look 5s ease-in-out;
   margin-right: 40px;
 }
 
@@ -435,11 +402,13 @@ body {
 }
 .footer .footer-icons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 20%;
 }
 .footer .footer-icons .footer-icon {
+  margin-top: 2%;
   text-decoration: none;
 }
 .footer .footer-icons .footer-icon img {
@@ -453,6 +422,8 @@ body {
     display: flex;
   }
   .gallery img {
+    width: 35%;
+    height: 30rem;
     border-radius: 50px;
   }
   .treiler-titanic {
@@ -462,9 +433,6 @@ body {
     height: 25rem;
     border-radius: 50px;
     border: 2px solid #ffffff;
-  }
-  .name-foto {
-    width: 30%;
   }
   .Kate-in-the-movie {
     margin-top: 25%;
@@ -485,5 +453,94 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .div-p {
+    width: 100%;
+  }
+  .billy-zane-actor {
+    width: 55%;
+  }
+  .Kate-in-the-movie {
+    opacity: 0;
+  }
+  .Leonardo-in-the-movie {
+    opacity: 0;
+  }
+  .name-foto {
+    opacity: 0;
+  }
+  .billy-zane-actor {
+    opacity: 0;
+  }
+  .francis-fisher-acrors {
+    opacity: 0;
+  }
+  .kathy-bothes-actors {
+    opacity: 0;
+  }
+  .header-wrpper {
+    background-color: #012d63;
+    width: 100%;
+    height: 150px;
+  }
+  .header-wrpper nav {
+    margin-left: 15%;
+  }
+  .footer-icons .footer-icon {
+    width: 30%;
+  }
+  .header-wrpper {
+    background-color: #012d63;
+    width: 100%;
+    height: 150px;
+  }
+  .header-wrpper nav {
+    width: 60%;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 768px) {
+  .movies-wrapper {
+    height: 1000px;
+  }
+  .director {
+    opacity: 0;
+  }
+  .perfectionism {
+    opacity: 0;
+  }
+  .child-cameron {
+    opacity: 0;
+  }
+  .succeed {
+    opacity: 0;
+  }
+  .create-titanik {
+    opacity: 0;
+  }
+  .Titanic-wrapper {
+    height: 135rem;
+  }
+  .Titanic-wrapper .name-foto {
+    position: absolute;
+  }
+  .Titanic-wrapper .gallery {
+    display: block;
+  }
+  .Titanic-wrapper .gallery .img {
+    animation: none;
+    height: 40rem;
+    width: 100%;
+  }
+  .footer-wrapper {
+    height: 500px;
+  }
+  .footer-wrapper .div-p {
+    position: absolute;
+    opacity: 0;
+  }
+  .footer-wrapper iframe {
+    margin-left: 0px;
+    width: 93%;
   }
 }/*# sourceMappingURL=style.css.map */
