@@ -7,7 +7,7 @@ I am creating this website for myself so that I think people can watch good movi
 First I made index.html for titanic
 
 ### Screenshot
-![alt text](<2024-06-01 (5).png>)
+![alt text](<![alt text](image.png)>)
 
 ### Screenshot
 ![alt text](<2024-06-01 (1).png>)
@@ -19,6 +19,4 @@ First I made index.html for titanic
 And also at this stage I had problems finding the trailer
 But overall I like the page I'm making
 
-### content
-In this site you can see the content and information about the films
-На цьому сайті ви можете переглянути вміст та інформацію про фільми.
+### Titanic Content
