@@ -7,7 +7,7 @@ I am creating this website for myself so that I think people can watch good movi
 First I made index.html for titanic
 
 ### Screenshot
-![alt text](<![alt text](image.png)>)
+![alt text](image-1.png)
 
 ### Screenshot
 ![alt text](<2024-06-01 (1).png>)
