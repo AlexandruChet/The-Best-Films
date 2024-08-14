@@ -7,11 +7,22 @@ First I made index.html for titanic
 ___
 ## **Screenshot Titanic**
 ![alt text](/project/docs/screenshots/image.titanic.code.png)
+
 ![alt text](/project/docs/screenshots/image.titanic.interface.png)
 ___
-## Screenshot Avatar
+## **Screenshot Avatar**
 ![alt text](/project/docs/screenshots/image.avatar.code.png)
+
+![alt text](/project/docs/screenshots/image.avatar.interface.png)
 ___
+### **Screenshots Goodfather**
+![alt text](/project/docs/screenshots/image.goodfather.interface.png)
+
+![alt text](/project/docs/screenshots/image.goodfather.code.png)
+___
+### **Screenshots Avengers Endgame**
+![alt text](/project/docs/screenshots/image.avengers.endgame.interface.png)
+![alt text](/project/docs/screenshots/image.avengers.endgame.code.png)
 # **Author**
   **I am the author of this project Alexandru Chetrean**
   **Я автор цього проекту Alexanru Chetrean**
@@ -20,7 +31,7 @@ ___
 *But overall I like the page I'm making*
 
 ### **Titanic Content**
-**Нагороди та успіх "Титаніка" (фільм 1997 року)**
+**Нагороди та успіх "Титаніка" (фільм 1997 року**
 
 *Фільм "Титанік", випущений у 1997 році і знятий режисером Джеймсом Кемероном, став одним із найуспішніших і найзначніших кінематографічних творів в історії. Цей епічний фільм про загибель знаменитого океанського лайнера не тільки підкорив серця глядачів, а й отримав багато нагород, утвердивши свою позицію як культурний феномен.*
 
@@ -43,9 +54,9 @@ ___
 *В результаті, "Титанік" по праву вважається одним із найбільших фільмів усіх часів, що завоював любов глядачів та визнання критиків у всьому світі.*
 ___
 
-Titanic (1997 film) awards and success
+**Titanic (1997 film) awards and success**
 
-- The film "Titanic", released in 1997 and directed by James Cameron, became one of the most successful and significant cinematic works in history. This epic film about the demise of the famous ocean liner not only captured the hearts of the audience, but also won many awards, cementing its position as a cultural phenomenon.
+*Titanic, released in 1997 and directed by James Cameron, has become one of the most successful and significant cinematic works in history. This epic film about the sinking of the famous ocean liner not only won the hearts of audiences, but also won many awards, establishing its position as a cultural phenomenon.*
 
 - Box office success
 "Titanic" became the first film in history to cross the $1 billion mark at the worldwide box office. It held the title of the highest-grossing film of all time for many years, until it was overtaken in 2009 by another Cameron film, Avatar. This success made Titanic one of the highest-grossing films of all time.
@@ -63,12 +74,12 @@ In addition to the Oscar, the film also won many other prestigious awards, inclu
 - Cultural influence
 The film had an impact on popular culture. Its romantic story, wonderful special effects and soundtrack, including the immortal song My Heart Will Go On, made Titanic a timeless classic. This work revived interest in the history of the real "Titanic" and left an indelible mark on the film industry.
 
-- As a result, "Titanic" is rightfully considered one of the greatest films of all time, which won the love of the audience and the recognition of critics all over the world.
+ *As a result, "Titanic" is rightfully considered one of the greatest films of all time, which won the love of the audience and the recognition of critics all over the world.*
 ___
 ### **Avatar Content**
 *Фільм "Аватар" (2009), режисера Джеймса Кемерона, не лише став комерційним успіхом, але й здобув численні нагороди та визнання критиків. Ця кінострічка, яка на момент виходу стала найкасовішим фільмом усіх часів, вирізняється своїми технологічними інноваціями, візуальними ефектами та екологічною тематикою. Ось основні винагороди та досягнення "Аватара":*
 
-*Премія "Оскар": "Аватар" був номінований на дев'ять премій "Оскар" і здобув три перемоги:*
+**Премія "Оскар": "Аватар" був номінований на дев'ять премій "Оскар" і здобув три перемоги:**
 
 - *Найкраща операторська робота (Мауро Фіоре)
 Найкраща робота художника-постановника (Рік Картер, Роберт Стромберг і Кім Сінклер)
