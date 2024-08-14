@@ -4,12 +4,24 @@ img {
 	object-fit: cover;
 }
 
+.leonardo-success-in-film {
+	display: none;
+}
+
+.titanic-text-img {
+	display: none;
+}
+
+.death-titanic {
+	display: none;
+}
+
 .form-div {
 	width: 100%;
 	background: url('https://www.rama-prozor.info/uploads/novosti/9/9/d/a/rvY9Oxzc_grmljavina.jpg')
 		no-repeat center/ cover;
-		padding-top: 50px;
-		padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	& form {
 		border-radius: 50px;
 		background-color: #fff;
@@ -29,70 +41,52 @@ img {
 	}
 }
 
-
 body {
 	width: 100%;
 	animation: creation 0.8s;
 }
 
-.header-wrpper {
+.header-wrapper {
 	background-color: #012d63;
 	width: 100%;
-	height: 93px;
+	height: 100px;
+	position: relative;
 
-	.block {
+	& .block {
 		margin-left: 50px;
-
-		.nav {
-			margin-left: 25%;
+		& .nav {
 			display: flex;
-			column-gap: 15%;
-
-			.a-nav {
-				text-decoration: none;
-				margin-top: 30px;
-				font-weight: 400;
-				font-size: 24px;
-				color: #fff;
-
-				&:hover {
-					color: #012d63;
-					height: 40px;
-					border-radius: 15px;
-					font-family: 'Italiana';
-					background-color: #2584bb;
-					box-shadow: 0 0 20px rgb(63, 57, 57), 0 0 40px rgba(55, 88, 125, 0.6),
-						0 0 60px rgba(171, 198, 226, 0.6);
-					transform: scale(1.1);
-				}
-
-				&:nth-child(1) {
-					color: #fff;
-				}
-			}
-
+			align-items: center;
+		}
+		& .nav-links {
+			display: flex;
+			column-gap: 25%;
+			margin-left: 25%;
+			.a-nav,
 			.nav-a {
 				text-decoration: none;
 				margin-top: 30px;
-				font-weight: 400;
 				font-size: 24px;
 				color: #c7c7c7;
-
+				transition: all 0.3s ease;
 				&:hover {
+					padding: 20px;
 					color: #012d63;
-					height: 40px;
+					height: 50px;
+					border-radius: 50px;
 					font-family: 'Italiana';
-					border-radius: 15px;
 					background-color: #f7ebeb;
 					box-shadow: 0 0 20px rgb(48, 153, 228),
 						0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
 					transform: scale(1.1);
 				}
 			}
+			& .a-nav {
+				color: #fff;
+			}
 		}
 	}
 }
-
 .movies-wrapper {
 	background: url(https://i.teknolojioku.com/2/1280/720/storage/files/images/2018/10/24/titanik-gemisi-0RpD_cover.jpg)
 		no-repeat center/cover;
@@ -233,7 +227,7 @@ body {
 	backdrop-filter: 10px;
 	padding: 30px;
 	border-radius: 30px;
-	margin-left: 65%;
+	margin-left: 50%;
 	width: 30%;
 	position: absolute;
 	color: #a369c0;
@@ -273,7 +267,7 @@ body {
 }
 
 .Leonardo-in-the-movie {
-	width: 30%;
+	width: 40%;
 	margin-top: 300px;
 	border-radius: 50px;
 	margin-left: 15%;
@@ -313,7 +307,7 @@ body {
 .gallery img {
 	margin-top: 50px;
 	height: 600px;
-	width: 30%;
+	width: 28%;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -421,7 +415,7 @@ body {
 	padding-top: 2%;
 	transform: scale(1.1);
 	text-align: center;
-	width: 100%;
+	width: 60%;
 	font-family: 'Italiana';
 	font-weight: 200;
 	padding-top: 155;
@@ -516,16 +510,16 @@ body {
 	}
 
 	.name-foto {
-		opacity: 0;
+		display: none;
 	}
 	.billy-zane-actor {
-		opacity: 0;
+		display: none;
 	}
 	.francis-fisher-acrors {
-		opacity: 0;
+		display: none;
 	}
 	.kathy-bothes-actors {
-		opacity: 0;
+		display: none;
 	}
 	.header-wrpper {
 		background-color: #012d63;
@@ -535,8 +529,8 @@ body {
 			margin-left: 15%;
 		}
 	}
-	.footer-icons{
-		& .footer-icon{
+	.footer-icons {
+		& .footer-icon {
 			width: 30%;
 		}
 	}
@@ -544,10 +538,18 @@ body {
 		background-color: #012d63;
 		width: 100%;
 		height: 150px;
-		& nav{
+		& nav {
 			width: 60%;
 			margin-left: 15%;
 		}
+	}
+	.block {
+		.child-cameron {
+			display: none;
+		}
+	}
+	.div-htwo {
+		width: 30%;
 	}
 }
 @media (max-width: 768px) {
@@ -555,23 +557,23 @@ body {
 		height: 1000px;
 	}
 	.director {
-		opacity: 0;
+		display: none;
 	}
 	.perfectionism {
-		opacity: 0;
+		display: none;
 	}
 	.child-cameron {
-		opacity: 0;
+		display: none;
 	}
 	.succeed {
-		opacity: 0;
+		display: none;
 	}
 	.create-titanik {
-		opacity: 0;
+		display: none;
 	}
 	.Titanic-wrapper {
 		height: 135rem;
-		& .name-foto{
+		& .name-foto {
 			position: absolute;
 		}
 		& .gallery {
@@ -583,13 +585,13 @@ body {
 			}
 		}
 	}
-	.footer-wrapper{
+	.footer-wrapper {
 		height: 500px;
-		& .div-p{
+		& .div-p {
 			position: absolute;
 			opacity: 0;
 		}
-		& iframe{
+		& iframe {
 			margin-left: 0px;
 			width: 93%;
 		}
@@ -598,15 +600,170 @@ body {
 		background-color: #012d63;
 		width: 100%;
 		height: 93px;
-	
 		.block {
 			margin-left: 50px;
-	
 			.nav {
 				margin-left: 5%;
 				display: flex;
 				column-gap: 15%;
 			}
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.form-div {
+		& form {
+			width: 90%;
+			margin-left: 5%;
+		}
+	}
+	.movies-wrapper {
+		display: none;
+	}
+	.Supporting-actors-wrapper {
+		display: none;
+	}
+	.header-wrapper {
+		height: 200px;
+	}
+	.nav-links {
+		flex-wrap: wrap;
+	}
+	.footer-wrapper {
+		display: none;
+	}
+	.casting-wrapper {
+		display: none;
+	}
+	.director-titanic-wrapper {
+		display: none;
+	}
+	.james-wrapper {
+		display: none;
+	}
+	.leonardo-success-in-film {
+		display: block;
+		background: url('https://th.bing.com/th/id/OIP.8e8G97x-EKQ58DS8MJw8YQHaHq?rs=1&pid=ImgDetMain')
+			no-repeat center/ cover;
+		height: 500px;
+		& h1 {
+			font-family: 'Italiana';
+			margin-left: 5%;
+			margin-right: 5%;
+			padding-top: 10%;
+			color: #fff;
+			font-size: 20px;
+			background-color: rgba(255, 255, 255, 0.3);
+			backdrop-filter: 10px;
+			border-radius: 10px;
+			padding: 20px;
+		}
+		& h3 {
+			font-family: 'Inter';
+			margin-left: 5%;
+			margin-top: 50%;
+			margin-right: 5%;
+			font-size: 15px;
+			color: #ffffff;
+			mix-blend-mode: overlay;
+			background-color: rgba(255, 255, 255, 0.3);
+			border-radius: 30px;
+			padding: 10px;
+		}
+	}
+	.titanic-text-img {
+		display: block;
+		background: url('https://img.freepik.com/premium-photo/titanic-ship-with-large-ship-front_812426-58976.jpg')
+			no-repeat center/ cover;
+		height: 200px;
+		width: 100%;
+		& h1 {
+			-webkit-text-stroke: 2px #fff;
+			height: 200px;
+			margin-left: 5%;
+			font-size: 140px;
+			font-weight: bold;
+			background: url('https://th.bing.com/th/id/OIP.tvtxc56w0rpLWlEP-3q1OAHaFN?rs=1&pid=ImgDetMain')
+				no-repeat center/ cover;
+			-webkit-background-clip: text;
+			background-clip: text;
+			color: transparent;
+		}
+	}
+	.death-titanic {
+		display: block;
+		background: url('https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2Fl3t0k%2FbtsFXKDBePk%2FYfk92l4Ad8sMb6vnkPymCk%2Fimg.jpg')
+			no-repeat center/ cover;
+		height: 500px;
+		& h1 {
+			mix-blend-mode: overlay;
+			color: #fff;
+			filter: blur(1px);
+			font-size: 30px;
+		}
+	}
+	.disaster-titanic {
+		height: 350px;
+		background-color: #0b1623;
+		& p {
+			margin-left: 5%;
+			margin-right: 5%;
+			font-size: 20px;
+			background-color: rgba(255, 255, 255, 0.3);
+			border-radius: 30px;
+			padding: 10px;
+			color: #fff;
+		}
+	}
+	.james-cameron-wrapper {
+		background: url(https://th.bing.com/th/id/R.f44e366c375f5f8f18d461b8484f0bc6?rik=ZEv%2fDH1f%2bProoQ&pid=ImgRaw&r=0)
+			no-repeat center/ cover;
+		height: 500px;
+		width: 100%;
+		& h1 {
+			margin-left: 5%;
+			margin-right: 5%;
+			padding-top: 5%;
+			color: #fff;
+			text-shadow: 2px 2px #000000;
+		}
+	}
+	.james-cameron-text-mobile {
+		background-color: #012d63;
+		height: 300px;
+		& p {
+			font-family: Italiana;
+			color: #fff;
+			margin-left: 5%;
+			margin-right: 5%;
+			background-color: #91bcf5;
+			border-radius: 30px;
+			padding: 10px;
+			color: #fff;
+		}
+	}
+	.oskar-titanik {
+		background: url('https://www.sanjose.org/sites/default/files/styles/listing_detail_image/public/2024-04/POP3_1x1.jpg.webp?itok=0YRAtfgV')
+			no-repeat center/ cover;
+		height: 500px;
+		& h1 {
+			padding-top: 60%;
+			position: absolute;
+			color: #fff;
+			font-size: 50px;
+			margin-left: 10%;
+			margin-right: 10%;
+			text-shadow: 2px 2px #000000;
+		}
+	}
+	.oskar-titanic-james-wrapper {
+		background: #000000;
+		height: 300px;
+		& p {
+			color: #fff;
+			margin-left: 10%;
+			margin-right: 10%;
 		}
 	}
 }

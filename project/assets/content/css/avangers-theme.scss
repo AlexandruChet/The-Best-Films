@@ -30,59 +30,43 @@ img {
 	}
 }
 
-.header-wrpper {
+.header-wrapper {
 	background-color: #012d63;
 	width: 100%;
-	height: 93px;
+	height: 100px;
+	position: relative;
 
-	.block {
+	& .block {
 		margin-left: 50px;
-
-		.nav {
-			margin-left: 25%;
+		& .nav {
 			display: flex;
-			column-gap: 15%;
-
-			.a-nav {
-				text-decoration: none;
-				margin-top: 30px;
-				font-weight: 400;
-				font-size: 24px;
-				color: #fff;
-
-				&:hover {
-					color: #012d63;
-					height: 40px;
-					border-radius: 15px;
-					font-family: 'Italiana';
-					background-color: #2584bb;
-					box-shadow: 0 0 20px rgb(63, 57, 57), 0 0 40px rgba(55, 88, 125, 0.6),
-						0 0 60px rgba(171, 198, 226, 0.6);
-					transform: scale(1.1);
-				}
-
-				&:nth-child(1) {
-					color: #fff;
-				}
-			}
-
+			align-items: center;
+		}
+		& .nav-links {
+			display: flex;
+			column-gap: 25%;
+			margin-left: 25%;
+			.a-nav,
 			.nav-a {
 				text-decoration: none;
 				margin-top: 30px;
-				font-weight: 400;
 				font-size: 24px;
 				color: #c7c7c7;
-
+				transition: all 0.3s ease;
 				&:hover {
+					padding: 20px;
 					color: #012d63;
-					height: 40px;
+					height: 50px;
+					border-radius: 50px;
 					font-family: 'Italiana';
-					border-radius: 15px;
 					background-color: #f7ebeb;
 					box-shadow: 0 0 20px rgb(48, 153, 228),
 						0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
 					transform: scale(1.1);
 				}
+			}
+			& .a-nav {
+				color: #fff;
 			}
 		}
 	}
@@ -275,10 +259,12 @@ img {
 	text-align: center;
 	& .footer-icons {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		gap: 20%;
 		& .footer-icon {
+			margin-top: 2%;
 			text-decoration: none;
 			& img {
 				height: 100px;
@@ -395,5 +381,32 @@ img {
 				opacity: 0;
 			}
 		}
+	}
+	.div-section{
+		& h3{
+			font-size: 200px;
+			width: 50%;
+		}
+	}
+	.avengers-content{
+		& .avengers-images {
+			& h1 {
+				padding-top: 1%;
+				font-size: 50px;
+				color: #fff;
+			}
+		}
+	}
+	.last-battle{
+		padding-top: 15%;
+		& p{
+			margin-top: 68%;
+		}
+	}
+	.epic-moments {
+		display: none;
+	}
+	.headline-p{
+		display: none;
 	}
 }
