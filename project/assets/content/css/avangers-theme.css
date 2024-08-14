@@ -9,33 +9,23 @@ img {
   width: 100%;
   height: 93px;
 }
-
-.nav {
+.header-wrpper .block {
+  margin-left: 50px;
+}
+.header-wrpper .block .nav {
   margin-left: 25%;
   display: flex;
   -moz-column-gap: 15%;
        column-gap: 15%;
 }
-
-.nav-a {
+.header-wrpper .block .nav .a-nav {
   text-decoration: none;
   margin-top: 30px;
   font-weight: 400;
   font-size: 24px;
-  color: #c7c7c7;
+  color: #fff;
 }
-
-.nav-a:hover {
-  color: #012d63;
-  height: 40px;
-  font-family: "Italiana";
-  border-radius: 15px;
-  background-color: #f7ebeb;
-  box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
-  transform: scale(1.1);
-}
-
-.a-nav:hover {
+.header-wrpper .block .nav .a-nav:hover {
   color: #012d63;
   height: 40px;
   border-radius: 15px;
@@ -44,13 +34,24 @@ img {
   box-shadow: 0 0 20px rgb(63, 57, 57), 0 0 40px rgba(55, 88, 125, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
   transform: scale(1.1);
 }
-
-.a-nav:nth-child(1) {
+.header-wrpper .block .nav .a-nav:nth-child(1) {
+  color: #fff;
+}
+.header-wrpper .block .nav .nav-a {
   text-decoration: none;
   margin-top: 30px;
   font-weight: 400;
   font-size: 24px;
-  color: #fff;
+  color: #c7c7c7;
+}
+.header-wrpper .block .nav .nav-a:hover {
+  color: #012d63;
+  height: 40px;
+  font-family: "Italiana";
+  border-radius: 15px;
+  background-color: #f7ebeb;
+  box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
+  transform: scale(1.1);
 }
 
 .div-section {
@@ -274,5 +275,52 @@ img {
   }
   .header-wrpper nav {
     margin-left: 15%;
+  }
+}
+@media (max-width: 768px) {
+  .avengers-container .avengers-header img {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .avengers-container .avengers-header p {
+    opacity: 0;
+    position: absolute;
+  }
+  .header-wrpper {
+    background-color: #012d63;
+    width: 100%;
+    height: 93px;
+  }
+  .header-wrpper .block {
+    margin-left: 50px;
+  }
+  .header-wrpper .block .nav {
+    margin-left: 5%;
+    display: flex;
+    -moz-column-gap: 15%;
+         column-gap: 15%;
+  }
+  .lesson-wrapper .headline-text {
+    margin-top: 1%;
+    font-size: 60px;
+  }
+  .lesson-wrapper .headline-p {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 5%;
+    font-size: 25px;
+  }
+  .epic-moments {
+    padding-top: 3rem;
+    height: 35rem;
+  }
+  .last-battle p {
+    margin-top: 53%;
+    width: 90%;
+    font-size: 25px;
+    position: absolute;
+  }
+  .last-battle section p {
+    opacity: 0;
   }
 }/*# sourceMappingURL=avangers-theme.css.map */
