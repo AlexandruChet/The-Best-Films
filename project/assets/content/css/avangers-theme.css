@@ -1,7 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap");
+ul {
+  margin: 0;
+}
+
 img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.form-div {
+  width: 100%;
+  background: url("https://www.rama-prozor.info/uploads/novosti/9/9/d/a/rvY9Oxzc_grmljavina.jpg") no-repeat center/cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.form-div form {
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 20px;
+  width: 30%;
+  margin-left: 40%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form-div form .form-check-input {
+  border-radius: 10px;
+  width: 5%;
+}
+.form-div form input {
+  width: 80%;
 }
 
 .header-wrpper {
@@ -275,6 +301,28 @@ img {
   }
   .header-wrpper nav {
     margin-left: 15%;
+  }
+  .lesson-wrapper .headline-text {
+    margin-top: 1%;
+    font-size: 60px;
+  }
+  .lesson-wrapper .headline-p {
+    margin-top: 0%;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 25px;
+  }
+  .last-battle {
+    height: 800px;
+  }
+  .last-battle p {
+    margin-top: 45%;
+    width: 90%;
+    font-size: 25px;
+    position: absolute;
+  }
+  .last-battle section p {
+    display: none;
   }
 }
 @media (max-width: 768px) {
