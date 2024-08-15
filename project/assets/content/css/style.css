@@ -16,6 +16,26 @@ img {
   display: none;
 }
 
+.disaster-titanic {
+  display: none;
+}
+
+.james-cameron-wrapper {
+  display: none;
+}
+
+.james-cameron-text-mobile {
+  display: none;
+}
+
+.oskar-titanik {
+  display: none;
+}
+
+.oskar-titanic-james-wrapper {
+  display: none;
+}
+
 .form-div {
   width: 100%;
   background: url("https://www.rama-prozor.info/uploads/novosti/9/9/d/a/rvY9Oxzc_grmljavina.jpg") no-repeat center/cover;
@@ -678,6 +698,7 @@ body {
     font-size: 30px;
   }
   .disaster-titanic {
+    display: block;
     height: 350px;
     background-color: #0b1623;
   }
@@ -691,6 +712,7 @@ body {
     color: #fff;
   }
   .james-cameron-wrapper {
+    display: block;
     background: url(https://th.bing.com/th/id/R.f44e366c375f5f8f18d461b8484f0bc6?rik=ZEv%2fDH1f%2bProoQ&pid=ImgRaw&r=0) no-repeat center/cover;
     height: 500px;
     width: 100%;
@@ -703,6 +725,7 @@ body {
     text-shadow: 2px 2px #000000;
   }
   .james-cameron-text-mobile {
+    display: block;
     background-color: #012d63;
     height: 300px;
   }
@@ -717,6 +740,7 @@ body {
     color: #fff;
   }
   .oskar-titanik {
+    display: block;
     background: url("https://www.sanjose.org/sites/default/files/styles/listing_detail_image/public/2024-04/POP3_1x1.jpg.webp?itok=0YRAtfgV") no-repeat center/cover;
     height: 500px;
   }
@@ -730,6 +754,7 @@ body {
     text-shadow: 2px 2px #000000;
   }
   .oskar-titanic-james-wrapper {
+    display: block;
     background: #000000;
     height: 300px;
   }
@@ -737,5 +762,10 @@ body {
     color: #fff;
     margin-left: 10%;
     margin-right: 10%;
+  }
+}
+@media (max-width: 391px) {
+  .titanic-text-img h1 {
+    font-size: 110px;
   }
 }/*# sourceMappingURL=style.css.map */
