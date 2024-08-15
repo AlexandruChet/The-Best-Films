@@ -4,6 +4,26 @@ img {
      object-fit: cover;
 }
 
+.titanic-text-img {
+  display: none;
+}
+
+.avatar-actors {
+  display: none;
+}
+
+.retteling {
+  display: none;
+}
+
+.oskar-avatar-james-wrapper {
+  display: none;
+}
+
+.oskar-avatar {
+  display: none;
+}
+
 .form-div {
   width: 100%;
   background: url("https://www.rama-prozor.info/uploads/novosti/9/9/d/a/rvY9Oxzc_grmljavina.jpg") no-repeat center/cover;
@@ -289,7 +309,7 @@ img {
 }
 .section-wrapper .avatar-section {
   margin-top: 20%;
-  padding-bottom: 19%;
+  padding-bottom: 18%;
   width: 100%;
   height: 100%;
   display: flex;
@@ -348,5 +368,172 @@ img {
   }
   .header-wrpper nav {
     margin-left: 15%;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    font-family: "Inter";
+  }
+  .form-div form {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .div-main-wrapper {
+    display: none;
+  }
+  .language-avatar-wrapper {
+    display: none;
+  }
+  .header-wrapper {
+    height: 200px;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+  }
+  .lesson-wrapper .headline h3 {
+    display: none;
+  }
+  .lesson-wrapper .headline p {
+    display: none;
+  }
+  .lesson-wrapper .img {
+    width: 100%;
+    position: absolute;
+  }
+  .section-wrapper {
+    display: none;
+  }
+  .end-wrapper {
+    display: none;
+  }
+  .footer .footer-icons {
+    height: 300px;
+    flex-wrap: wrap;
+  }
+  .oskar-avatar-james-wrapper {
+    display: block;
+    background: #000000;
+    height: 350px;
+  }
+  .oskar-avatar-james-wrapper p {
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .oskar-avatar {
+    display: block;
+    background: url("https://www.sanjose.org/sites/default/files/styles/listing_detail_image/public/2024-04/POP3_1x1.jpg.webp?itok=0YRAtfgV") no-repeat center/cover;
+    height: 500px;
+  }
+  .oskar-avatar h1 {
+    padding-top: 60%;
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-shadow: 2px 2px #000000;
+  }
+  .titanic-text-img {
+    display: block;
+    background: url("https://th.bing.com/th/id/R.f87a0379b71dd4cb1e1a79a24c900b0c?rik=RAEwKEBWKjE4xw&pid=ImgRaw&r=0") no-repeat center/cover;
+    height: 200px;
+    width: 100%;
+  }
+  .titanic-text-img h1 {
+    -webkit-text-stroke: 2px #fff;
+    height: 200px;
+    margin-left: 5%;
+    font-size: 140px;
+    font-weight: bold;
+    background: url("https://th.bing.com/th/id/OIP.PBljER9x5PV7WAZZmJo7JwHaEK?rs=1&pid=ImgDetMain") no-repeat center/cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .retteling {
+    display: block;
+    background: url("https://th.bing.com/th/id/OIP.208YbXFOSoYxauMEpcKncAHaEK?rs=1&pid=ImgDetMain") no-repeat center/cover;
+  }
+  .retteling article h3 {
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    padding: 10px;
+    color: #fff;
+    text-shadow: 2px 2px #000000;
+  }
+  .retteling article p {
+    text-shadow: 2px 2px #000000;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 25%;
+    margin-bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    padding: 10px;
+    color: #fff;
+    opacity: 0.5;
+  }
+  .avatar-actors {
+    display: block;
+    background: url("https://static.hitek.fr/img/actualite/ill_m/998776219/avatar2.jpg") no-repeat center/cover;
+    height: 850px;
+  }
+  .avatar-actors article p {
+    text-shadow: 2px 2px #000000;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 25%;
+    margin-bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    padding: 10px;
+    color: #fff;
+    opacity: 0.5;
+  }
+  .avatar-actors article h3 {
+    text-shadow: 2px 2px #000000;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 25%;
+    margin-bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+  }
+}
+@media (max-width: 391px) {
+  .avatar-actors {
+    display: block;
+    background: url("https://static.hitek.fr/img/actualite/ill_m/998776219/avatar2.jpg") no-repeat center/cover;
+    height: 700px;
+  }
+  .avatar-actors article p {
+    font-size: 12px;
+  }
+  .avatar-actors article h3 {
+    font-size: 30px;
+  }
+}
+.titanic-text-img h1 {
+  font-size: 110px;
+}
+
+.lesson-wrapper {
+  height: 300px;
+}
+.lesson-wrapper .img {
+  height: 300px;
+}
+
+@media (max-width: 360px) {
+  .avatar-actors p {
+    font-size: 12px;
+  }
+  .titanic-text-img h1 {
+    font-size: 100px;
   }
 }/*# sourceMappingURL=avatar-theme.css.map */

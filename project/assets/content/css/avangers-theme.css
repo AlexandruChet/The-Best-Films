@@ -8,6 +8,14 @@ img {
      object-fit: cover;
 }
 
+.oskar-avengers {
+  display: none;
+}
+
+.oskar-avengers-medals {
+  display: none;
+}
+
 .form-div {
   width: 100%;
   background: url("https://www.rama-prozor.info/uploads/novosti/9/9/d/a/rvY9Oxzc_grmljavina.jpg") no-repeat center/cover;
@@ -320,6 +328,9 @@ img {
   }
 }
 @media (max-width: 768px) {
+  .nav-links {
+    flex-wrap: wrap;
+  }
   .avengers-container .avengers-header img {
     margin-left: 0px;
     width: 100%;
@@ -385,5 +396,82 @@ img {
   }
   .headline-p {
     display: none;
+  }
+}
+@media (max-width: 480px) {
+  .form-div form {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .header-wrapper {
+    height: 200px;
+  }
+  .avengers-header {
+    display: none;
+  }
+  .avengers-header p {
+    display: none;
+  }
+  .avengers-header avengers-logo {
+    display: none;
+  }
+  .div-section h3 {
+    font-size: 100px;
+  }
+  .div-section p {
+    font-size: 15px;
+  }
+  .avengers-container .avengers-content {
+    padding: 70px;
+  }
+  .avengers-container .avengers-content .avengers-images {
+    padding-top: 5%;
+  }
+  .avengers-container .avengers-content .avengers-images h1 {
+    font-size: 30px;
+  }
+  .lesson-wrapper {
+    display: none;
+  }
+  .last-battle {
+    height: 700px;
+  }
+  .last-battle img {
+    width: 90%;
+  }
+  .last-battle p {
+    display: none;
+  }
+  .last-battle section {
+    display: none;
+  }
+  .oskar-avengers {
+    display: block;
+    background: url("https://www.sanjose.org/sites/default/files/styles/listing_detail_image/public/2024-04/POP3_1x1.jpg.webp?itok=0YRAtfgV") no-repeat center/cover;
+    height: 500px;
+  }
+  .oskar-avengers h1 {
+    padding-top: 50%;
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-shadow: 2px 2px #000000;
+  }
+  .oskar-avengers-medals {
+    display: block;
+    background: #000000;
+    height: 300px;
+  }
+  .oskar-avengers-medals p {
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media (max-width: 391px) {
+  .movies-wrapper .block .avengers .div-section img {
+    height: 500px;
   }
 }/*# sourceMappingURL=avangers-theme.css.map */
