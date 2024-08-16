@@ -16,23 +16,23 @@ img {
 	display: none;
 }
 
-.disaster-titanic{
+.disaster-titanic {
 	display: none;
 }
 
-.james-cameron-wrapper{
+.james-cameron-wrapper {
 	display: none;
 }
 
-.james-cameron-text-mobile{
+.james-cameron-text-mobile {
 	display: none;
 }
 
-.oskar-titanik{
+.oskar-titanik {
 	display: none;
 }
 
-.oskar-titanic-james-wrapper{
+.oskar-titanic-james-wrapper {
 	display: none;
 }
 
@@ -70,39 +70,166 @@ body {
 	background-color: #012d63;
 	width: 100%;
 	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	position: relative;
 
-	& .block {
+	.block {
+		width: 100%;
+		max-width: 1200px;
 		margin-left: 50px;
-		& .nav {
-			display: flex;
-			align-items: center;
+	}
+
+	.nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.burger-menu {
+		display: none;
+		flex-direction: column;
+		cursor: pointer;
+
+		.burger-bar {
+			width: 25px;
+			height: 3px;
+			background-color: #fff;
+			margin: 4px 0;
+			transition: all 0.3s ease;
 		}
-		& .nav-links {
-			display: flex;
-			column-gap: 25%;
-			margin-left: 25%;
-			.a-nav,
-			.nav-a {
-				text-decoration: none;
-				margin-top: 30px;
-				font-size: 24px;
-				color: #c7c7c7;
-				transition: all 0.3s ease;
-				&:hover {
-					padding: 20px;
-					color: #012d63;
-					height: 50px;
-					border-radius: 50px;
-					font-family: 'Italiana';
-					background-color: #f7ebeb;
-					box-shadow: 0 0 20px rgb(48, 153, 228),
-						0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
-					transform: scale(1.1);
+	}
+
+	.nav-links {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+
+		.a-nav,
+		.nav-a {
+			text-decoration: none;
+			font-size: 24px;
+			color: #c7c7c7;
+			transition: all 0.3s ease;
+			padding: 10px 20px;
+
+			&:hover {
+				padding: 20px;
+				color: #012d63;
+				border-radius: 50px;
+				font-family: 'Italiana';
+				background-color: #f7ebeb;
+				box-shadow: 0 0 20px rgb(48, 153, 228),
+					0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
+				transform: scale(1.1);
+			}
+		}
+
+		.a-nav {
+			color: #fff;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.Titanic-wrapper {
+			height: 2000px;
+			.block {
+				.gallery {
+					flex-wrap: wrap;
+				}
+				.gallery img {
+					margin-top: 50px;
+					height: 600px;
+					width: 100%;
+					border-radius: 10px;
+					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 				}
 			}
-			& .a-nav {
-				color: #fff;
+		}
+		.burger-menu {
+			display: flex;
+		}
+		.nav-links {
+			display: none;
+			position: absolute;
+			top: 100px;
+			left: 0;
+			width: 100%;
+			flex-direction: column;
+			background-color: #012d63;
+			align-items: center;
+			.a-nav,
+			.nav-a {
+				width: 100%;
+				text-align: center;
+				padding: 15px 0;
+				font-size: 20px;
+			}
+		}
+		.nav-links.active {
+			display: flex;
+		}
+	}
+	.movies-wrapper {
+		height: 1000px;
+	}
+	.director {
+		display: none;
+	}
+	.perfectionism {
+		display: none;
+	}
+	.child-cameron {
+		display: none;
+	}
+	.succeed {
+		display: none;
+	}
+	.create-titanik {
+		display: none;
+	}
+	.Supporting-actors-wrapper {
+		display: none;
+	}
+	.director-titanic-wrapper {
+		display: none;
+	}
+	.Titanic-wrapper {
+		height: 135rem;
+		& .name-foto {
+			position: absolute;
+		}
+		& .gallery {
+			display: block;
+			& .img {
+				animation: none;
+				height: 40rem;
+				width: 100%;
+			}
+		}
+	}
+	.footer-wrapper {
+		height: 500px;
+		& .div-p {
+			position: absolute;
+			opacity: 0;
+		}
+		& iframe {
+			margin-left: 0px;
+			width: 50%;
+		}
+	}
+	.header-wrpper {
+		background-color: #012d63;
+		width: 100%;
+		height: 93px;
+		.block {
+			margin-left: 50px;
+			.nav {
+				margin-left: 5%;
+				display: flex;
+				column-gap: 15%;
 			}
 		}
 	}
@@ -572,66 +699,22 @@ body {
 		width: 30%;
 	}
 }
-@media (max-width: 768px) {
-	.movies-wrapper {
-		height: 1000px;
-	}
-	.director {
-		display: none;
-	}
-	.perfectionism {
-		display: none;
-	}
-	.child-cameron {
-		display: none;
-	}
-	.succeed {
-		display: none;
-	}
-	.create-titanik {
-		display: none;
-	}
-	.Titanic-wrapper {
-		height: 135rem;
-		& .name-foto {
-			position: absolute;
-		}
-		& .gallery {
-			display: block;
-			& .img {
-				animation: none;
-				height: 40rem;
-				width: 100%;
-			}
-		}
-	}
-	.footer-wrapper {
-		height: 500px;
-		& .div-p {
-			position: absolute;
-			opacity: 0;
-		}
-		& iframe {
-			margin-left: 0px;
-			width: 93%;
-		}
-	}
-	.header-wrpper {
-		background-color: #012d63;
-		width: 100%;
-		height: 93px;
-		.block {
-			margin-left: 50px;
-			.nav {
-				margin-left: 5%;
-				display: flex;
-				column-gap: 15%;
-			}
-		}
-	}
-}
-
 @media (max-width: 480px) {
+	.Titanic-wrapper {
+		height: 2000px;
+		.block {
+			.gallery {
+				flex-wrap: wrap;
+			}
+			.gallery img {
+				margin-top: 50px;
+				height: 600px;
+				width: 100%;
+				border-radius: 10px;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			}
+		}
+	}
 	.form-div {
 		& form {
 			width: 90%;
@@ -793,7 +876,7 @@ body {
 	}
 }
 
-@media (max-width: 391px){
+@media (max-width: 391px) {
 	.titanic-text-img {
 		& h1 {
 			font-size: 110px;

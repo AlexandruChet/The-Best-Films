@@ -25,44 +25,113 @@
 	}
 }
 
+.james-cameron-wrapper {
+	display: none;
+}
+
+.james-cameron-text-mobile {
+	display: none;
+}
+
+.oskar-titanik {
+	display: none;
+}
+
+.oskar-titanic-james-wrapper {
+	display: none;
+}
+
 .header-wrapper {
 	background-color: #012d63;
 	width: 100%;
 	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	position: relative;
 
-	& .block {
+	.block {
+		width: 100%;
+		max-width: 1200px;
 		margin-left: 50px;
-		& .nav {
-			display: flex;
-			align-items: center;
+	}
+
+	.nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.burger-menu {
+		display: none;
+		flex-direction: column;
+		cursor: pointer;
+
+		.burger-bar {
+			width: 25px;
+			height: 3px;
+			background-color: #fff;
+			margin: 4px 0;
+			transition: all 0.3s ease;
 		}
-		& .nav-links {
+	}
+
+	.nav-links {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+
+		.a-nav,
+		.nav-a {
+			text-decoration: none;
+			font-size: 24px;
+			color: #c7c7c7;
+			transition: all 0.3s ease;
+			padding: 10px 20px;
+
+			&:hover {
+				padding: 20px;
+				color: #012d63;
+				border-radius: 50px;
+				font-family: 'Italiana';
+				background-color: #f7ebeb;
+				box-shadow: 0 0 20px rgb(48, 153, 228),
+					0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
+				transform: scale(1.1);
+			}
+		}
+
+		.a-nav {
+			color: #fff;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.burger-menu {
 			display: flex;
-			column-gap: 25%;
-			margin-left: 25%;
+		}
+
+		.nav-links {
+			display: none;
+			position: absolute;
+			top: 100px;
+			left: 0;
+			width: 100%;
+			flex-direction: column;
+			background-color: #012d63;
+			align-items: center;
+
 			.a-nav,
 			.nav-a {
-				text-decoration: none;
-				margin-top: 30px;
-				font-size: 24px;
-				color: #c7c7c7;
-				transition: all 0.3s ease;
-				&:hover {
-					padding: 20px;
-					color: #012d63;
-					height: 50px;
-					border-radius: 50px;
-					font-family: 'Italiana';
-					background-color: #f7ebeb;
-					box-shadow: 0 0 20px rgb(48, 153, 228),
-						0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
-					transform: scale(1.1);
-				}
+				width: 100%;
+				text-align: center;
+				padding: 15px 0;
+				font-size: 20px;
 			}
-			& .a-nav {
-				color: #fff;
-			}
+		}
+
+		.nav-links.active {
+			display: flex;
 		}
 	}
 }
@@ -75,13 +144,144 @@
 	& h1 {
 		margin-left: 5%;
 		font-size: 250px;
-		font-weight: bold;
 		-webkit-text-stroke: 2px #fff;
 		background: url('https://th.bing.com/th/id/OIP.3coAH8Y83aZqtc310iep_QHaE8?rs=1&pid=ImgDetMain')
 			no-repeat center/ cover;
 		-webkit-background-clip: text;
 		background-clip: text;
 		color: transparent;
+	}
+}
+
+@media (max-width: 480px) {
+	.goodfather-title {
+		height: 100px;
+		& h1 {
+			font-size: 80px;
+		}
+	}
+	.form-div {
+		& form {
+			width: 90%;
+			margin-left: 5%;
+		}
+	}
+	.michael-carleone {
+		display: none;
+	}
+	.sally-carleone {
+		display: none;
+	}
+	.fredo-carleone {
+		display: none;
+	}
+	.goodfather-wrapper {
+		display: none;
+	}
+	.movies-wrapper {
+		display: none;
+	}
+	.oskar-titanik {
+		display: block;
+		background: url('https://www.sanjose.org/sites/default/files/styles/listing_detail_image/public/2024-04/POP3_1x1.jpg.webp?itok=0YRAtfgV')
+			no-repeat center/ cover;
+		height: 500px;
+		& h1 {
+			padding-top: 60%;
+			position: absolute;
+			color: #fff;
+			font-size: 50px;
+			margin-left: 10%;
+			margin-right: 10%;
+			text-shadow: 2px 2px #000000;
+		}
+	}
+	.oskar-titanic-james-wrapper {
+		display: block;
+		background: #000000;
+		height: 300px;
+		& p {
+			color: #fff;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+	}
+	.james-cameron-wrapper {
+		display: block;
+		background: url('https://th.bing.com/th/id/R.f86d0817a89c86d68c29029d3a67355a?rik=28T0e6wgLgEN6Q&pid=ImgRaw&r=0')
+			no-repeat center/ cover;
+		height: 500px;
+		width: 100%;
+		& h1 {
+			margin-left: 5%;
+			margin-right: 5%;
+			padding-top: 5%;
+			color: #fff;
+			text-shadow: 2px 2px #000000;
+		}
+	}
+	.james-cameron-text-mobile {
+		display: block;
+		background: url('https://th.bing.com/th/id/R.ce8a1119591f6e2880db6469ec3e1628?rik=sxwNYDxitlqr8w&riu=http%3a%2f%2f1.bp.blogspot.com%2f-rqXxmkN_0to%2fT0yJYjOYroI%2fAAAAAAAABKc%2f92ofgKB-L1I%2fs1600%2fThe%2bGodfather_Poster.jpg&ehk=zQykSAB6OD6oHAA1yJGwBxGzLmf2ZPJYCk%2fyiaVOQlA%3d&risl=&pid=ImgRaw&r=0')
+			no-repeat center/ cover;
+		height: 400px;
+		& p {
+			font-family: Inter;
+			color: #000;
+			margin-left: 5%;
+			margin-right: 5%;
+			background-color: rgba(201, 171, 171, 0.683);
+			border-radius: 30px;
+			padding: 10px;
+			text-shadow: 2px 2px #fff;
+		}
+	}
+	.alpachino-actor{
+		background: url("https://th.bing.com/th/id/OIP.r1tvdFjP5t3Wsnu9bitXIgHaJM?rs=1&pid=ImgDetMain")
+		no-repeat center/ cover;
+		height: 450px;
+		width: 100%;
+		& h1{
+			background-color: rgba(255, 255, 255, 0.3);
+			padding: 20px;
+			border-radius: 50px;
+			width: 50%;
+			color: #fff;
+			padding-top: 20px;
+			margin-left: 25%;
+		}
+	}
+	.actor-role {
+		background-color: #f0f0f0;
+		border-radius: 8px;
+		color: #333;
+		height: 450px;
+		h2 {
+			padding-top: 20px;
+			margin-left: 10%;
+			font-family: 'Italiana';
+			font-size: 28px;
+			color: #b22222;
+			font-weight: bold;
+		}
+
+		p {
+			padding: 5px;
+			border-radius: 30px;
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+			padding-bottom: 20px;
+			margin-left: 5%;
+			margin-right: 5%;
+			font-family: 'Inter';
+			font-size: 18px;
+			color: #c7c7c7;
+			margin-bottom: 0rem;
+		}
+
+		&:hover {
+			background-color: #e9e9e9;
+			box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+		}
 	}
 }
 
@@ -232,7 +432,6 @@
 		}
 	}
 }
-
 @media (max-width: 1200px) {
 	.fredo-carleone {
 		background-color: #333;
@@ -252,8 +451,9 @@
 	}
 
 	.goodfather-title {
+		height: 100px;
 		& h1 {
-			font-size: 200px;
+			font-size: 80px;
 		}
 	}
 	.header-wrpper {
@@ -264,5 +464,8 @@
 			width: 60%;
 			margin-left: 15%;
 		}
+	}
+	.goodfather-wrapper {
+		display: none;
 	}
 }

@@ -53,43 +53,97 @@ img {
 	background-color: #012d63;
 	width: 100%;
 	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	position: relative;
-
-	& .block {
-		margin-left: 50px;
-		& .nav {
-			display: flex;
-			align-items: center;
-		}
-		& .nav-links {
-			display: flex;
-			column-gap: 25%;
-			margin-left: 25%;
-			.a-nav,
-			.nav-a {
-				text-decoration: none;
-				margin-top: 30px;
-				font-size: 24px;
-				color: #c7c7c7;
-				transition: all 0.3s ease;
-				&:hover {
-					padding: 20px;
-					color: #012d63;
-					height: 50px;
-					border-radius: 50px;
-					font-family: 'Italiana';
-					background-color: #f7ebeb;
-					box-shadow: 0 0 20px rgb(48, 153, 228),
-						0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
-					transform: scale(1.1);
-				}
-			}
-			& .a-nav {
-				color: #fff;
-			}
-		}
+  
+	.block {
+	  width: 100%;
+	  max-width: 1200px;
+	  margin-left: 50px;
 	}
-}
+  
+	.nav {
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-between;
+	}
+  
+	.burger-menu {
+	  display: none;
+	  flex-direction: column;
+	  cursor: pointer;
+  
+	  .burger-bar {
+		width: 25px;
+		height: 3px;
+		background-color: #fff;
+		margin: 4px 0;
+		transition: all 0.3s ease;
+	  }
+	}
+  
+	.nav-links {
+	  display: flex;
+	  justify-content: space-between;
+	  width: 100%;
+  
+	  .a-nav,
+	  .nav-a {
+		text-decoration: none;
+		font-size: 24px;
+		color: #c7c7c7;
+		transition: all 0.3s ease;
+		padding: 10px 20px;
+  
+		&:hover {
+		  padding: 20px;
+		  color: #012d63;
+		  border-radius: 50px;
+		  font-family: 'Italiana';
+		  background-color: #f7ebeb;
+		  box-shadow: 0 0 20px rgb(48, 153, 228),
+			0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
+		  transform: scale(1.1);
+		}
+	  }
+  
+	  .a-nav {
+		color: #fff;
+	  }
+	}
+  
+	@media (max-width: 768px) {
+	  .burger-menu {
+		display: flex;
+	  }
+  
+	  .nav-links {
+		display: none;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		width: 100%;
+		flex-direction: column;
+		background-color: #012d63;
+		align-items: center;
+  
+		.a-nav,
+		.nav-a {
+		  width: 100%;
+		  text-align: center;
+		  padding: 15px 0;
+		  font-size: 20px;
+		}
+	  }
+  
+	  .nav-links.active {
+		display: flex;
+	  }
+	}
+  }
+
 
 .div-main-wrapper {
 	background: url(https://th.bing.com/th/id/R.f87a0379b71dd4cb1e1a79a24c900b0c?rik=RAEwKEBWKjE4xw&pid=ImgRaw&r=0)
