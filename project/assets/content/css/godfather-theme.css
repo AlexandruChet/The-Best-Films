@@ -21,6 +21,14 @@
   width: 80%;
 }
 
+.alpachino-actor {
+  display: none;
+}
+
+.actor-role {
+  display: none;
+}
+
 .james-cameron-wrapper {
   display: none;
 }
@@ -215,6 +223,7 @@
     text-shadow: 2px 2px #fff;
   }
   .alpachino-actor {
+    display: block;
     background: url("https://th.bing.com/th/id/OIP.r1tvdFjP5t3Wsnu9bitXIgHaJM?rs=1&pid=ImgDetMain") no-repeat center/cover;
     height: 450px;
     width: 100%;
@@ -229,6 +238,7 @@
     margin-left: 25%;
   }
   .actor-role {
+    display: block;
     background-color: #f0f0f0;
     border-radius: 8px;
     color: #333;
@@ -279,7 +289,7 @@
 
 .michael-carleone {
   background: url("https://i.pinimg.com/originals/24/3b/9f/243b9f6a4354dc134d3870aedf21588e.jpg") no-repeat center/cover;
-  height: 80rem;
+  height: 81rem;
   width: 100%;
 }
 .michael-carleone section h1 {
@@ -333,7 +343,7 @@
 .sally-carleone ul article p {
   margin-top: 10%;
   margin-left: 7%;
-  font-size: 50px;
+  font-size: 30px;
   color: #fff;
 }
 
@@ -350,9 +360,11 @@
   position: absolute;
 }
 .fredo-carleone section h1 {
-  font-size: 100px;
+  font-size: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
   mix-blend-mode: overlay;
-  color: #fff;
+  color: #000;
 }
 
 .goodfather-wrapper {
@@ -429,5 +441,19 @@
   }
   .goodfather-wrapper {
     display: none;
+  }
+}
+@media (max-width: 391px) {
+  .goodfather-title h1 {
+    font-size: 65px;
+  }
+  .actor-role {
+    height: 650px;
+  }
+  .oskar-titanik {
+    height: 600px;
+  }
+  .james-cameron-text-mobile {
+    height: 600px;
   }
 }/*# sourceMappingURL=godfather-theme.css.map */
