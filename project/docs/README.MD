@@ -281,16 +281,15 @@ ___
 project
 │
 ├── assets
-│
+├── icons
+|── img
 ├── content
-│   ├── css
-│   │   ├── index.html
-│   │   ├── Movie-About...
-│   │   ├── Movie-About...
-│   │   └── Movie-About...
-│   ├── icons
-│   └── img
-│
+├   ├── css
+|   ├── js
+|   ├── index.html
+|   ├── Movie-About...
+│   ├── Movie-About...
+│   └── Movie-About...  
 └── docs
     └── screenshots
 ```
