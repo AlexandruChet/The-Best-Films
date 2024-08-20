@@ -266,34 +266,40 @@ body {
   margin-left: 70%;
 }
 
-.casting-wrapper {
-  background: url("https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/wNmckEM4uQVEz36gg4kkOIzKYEvoPr.jpg") no-repeat center/cover;
-  box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
-  height: 1000px;
-  width: 100%;
-}
-
-.director-titanic-wrapper {
-  background: url(https://th.bing.com/th/id/R.f44e366c375f5f8f18d461b8484f0bc6?rik=ZEv%2fDH1f%2bProoQ&pid=ImgRaw&r=0) no-repeat center/cover;
-  height: 50rem;
-}
-
-.Titanic-wrapper {
-  width: 100%;
-  height: 850px;
-  background-color: #012d63;
-}
-
-.james-wrapper {
-  background: url(https://th.bing.com/th/id/R.7e9cc821ce89f3d327b0b316c4b6e309?rik=zK%2fOkMKP4fX%2f9w&pid=ImgRaw&r=0) no-repeat center/cover;
-  height: 700px;
-  box-shadow: 0 0 20px rgb(4, 4, 4), 0 0 40px rgba(37, 38, 39, 0.6), 0 0 60px rgba(136, 143, 152, 0.6);
-}
-
 .footer-wrapper {
   height: 70rem;
   background-color: #0b1623;
   box-shadow: 0 0 20px rgb(80, 75, 75), 0 0 40px rgba(56, 63, 69, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
+}
+.footer-wrapper .block {
+  margin-left: 50px;
+}
+.footer-wrapper .block .div-p {
+  text-align: center;
+  padding-top: 5%;
+  font-family: "Italiana";
+  font-weight: 200;
+  padding-top: 155;
+  padding-right: 733px;
+  font-size: 50px;
+  color: #fff;
+}
+.footer-wrapper .block .div-htwo {
+  padding-top: 2%;
+  transform: scale(1.1);
+  text-align: center;
+  width: 60%;
+  font-family: "Italiana";
+  font-weight: 200;
+  padding-top: 155;
+  font-size: 40px;
+  color: #705e5e;
+}
+.footer-wrapper .block .treiler-titanic {
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 70rem;
+  height: 30rem;
 }
 
 @keyframes look {
@@ -312,6 +318,136 @@ body {
     width: 30%;
   }
 }
+.casting-wrapper {
+  background: url("https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/wNmckEM4uQVEz36gg4kkOIzKYEvoPr.jpg") no-repeat center/cover;
+  box-shadow: 0 0 20px rgb(48, 153, 228), 0 0 40px rgba(249, 252, 255, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
+  height: 1000px;
+  width: 100%;
+}
+.casting-wrapper .casting-film {
+  margin-left: 35%;
+  padding-top: 5%;
+  font-size: 40px;
+  font-family: "Inter";
+  color: #ffffff;
+}
+.casting-wrapper .Kate-in-the-movie,
+.casting-wrapper .Leonardo-in-the-movie {
+  padding: 50px;
+  border-radius: 50px;
+  font-size: 25px;
+  opacity: 0.5;
+  box-shadow: 0 0 20px rgb(136, 141, 169), 0 0 40px rgba(63, 35, 59, 0.6), 0 0 60px rgba(118, 103, 87, 0.6);
+  color: #ffffff;
+  font-family: "Italiana";
+}
+.casting-wrapper .Kate-in-the-movie {
+  width: 30%;
+  position: absolute;
+  margin-left: 65%;
+  background-color: palevioletred;
+}
+.casting-wrapper .Leonardo-in-the-movie {
+  width: 40%;
+  margin-top: 300px;
+  margin-left: 15%;
+  background-color: #012d63;
+  box-shadow: 0 0 20px rgb(136, 141, 169), 0 0 40px rgba(63, 35, 59, 0.6), 0 0 60px rgba(84, 4, 255, 0.6);
+}
+
+.director-titanic-wrapper {
+  background: url("https://th.bing.com/th/id/R.f44e366c375f5f8f18d461b8484f0bc6?rik=ZEv%2fDH1f%2bProoQ&pid=ImgRaw&r=0") no-repeat center/cover;
+  height: 50rem;
+}
+.director-titanic-wrapper .block {
+  margin-left: 50px;
+}
+.director-titanic-wrapper .block ul {
+  list-style-type: none;
+  padding: 0;
+}
+.director-titanic-wrapper .block ul li {
+  width: 30%;
+  position: absolute;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 30px;
+  font-family: "Italiana";
+}
+.director-titanic-wrapper .block ul li.director {
+  color: #a369c0;
+  background-color: rgba(155, 139, 139, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.director-titanic-wrapper .block ul li.perfectionism {
+  background-color: rgba(77, 64, 64, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  margin-left: 15%;
+  margin-top: 25%;
+  padding: 50px;
+  color: #ffffff;
+}
+.director-titanic-wrapper .block ul li.child-cameron {
+  background-color: rgba(159, 144, 144, 0.482);
+  text-shadow: 2px 2px #ffffff;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  margin-left: 50%;
+  color: #a369c0;
+}
+
+.Titanic-wrapper {
+  width: 100%;
+  height: 850px;
+  background-color: #012d63;
+}
+.Titanic-wrapper .block .name-foto {
+  margin-left: 5%;
+  border-radius: 30px;
+  width: 90%;
+  font-family: "Inter";
+  font-weight: 200;
+  box-shadow: 0 0 20px rgb(86, 52, 117), 0 0 40px rgba(48, 103, 166, 0.6), 0 0 60px rgba(94, 155, 220, 0.6);
+  transform: scale(1.1);
+  font-size: 30px;
+  color: #fff;
+}
+.Titanic-wrapper .block .gallery img {
+  margin-top: 50px;
+  height: 600px;
+  width: 28%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 40px;
+  animation: look 5s ease-in-out;
+}
+
+.james-wrapper {
+  background: url("https://th.bing.com/th/id/R.7e9cc821ce89f3d327b0b316c4b6e309?rik=zK%2fOkMKP4fX%2f9w&pid=ImgRaw&r=0") no-repeat center/cover;
+  height: 700px;
+  box-shadow: 0 0 20px rgb(4, 4, 4), 0 0 40px rgba(37, 38, 39, 0.6), 0 0 60px rgba(136, 143, 152, 0.6);
+}
+.james-wrapper .block ul {
+  list-style: none;
+  padding: 0;
+}
+.james-wrapper .block ul li {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Italiana";
+}
+.james-wrapper .block ul li.succeed {
+  position: absolute;
+  margin-left: 5%;
+  width: 50%;
+  padding-top: 30%;
+}
+.james-wrapper .block ul li.create-titanik {
+  margin-left: 25%;
+}
+
 @keyframes creation {
   0% {
     opacity: 0;
@@ -326,120 +462,15 @@ body {
   display: block;
 }
 
-.director {
-  width: 30%;
-  position: absolute;
-  color: #a369c0;
-  font-size: 20px;
-  background-color: rgba(155, 139, 139, 0.3);
-  -webkit-backdrop-filter: 10px;
-          backdrop-filter: 10px;
-  border-radius: 30px;
-  padding: 30px;
-  font-family: "Italiana";
-}
-
-.child-cameron {
-  background-color: rgba(159, 144, 144, 0.482);
-  text-shadow: 2px 2px #ffffff;
-  -webkit-backdrop-filter: 10px;
-          backdrop-filter: 10px;
-  padding: 30px;
-  border-radius: 30px;
-  margin-left: 50%;
-  width: 30%;
-  position: absolute;
-  color: #a369c0;
-  font-size: 20px;
-  font-family: "Italiana";
-}
-
-.perfectionism {
-  background-color: rgba(77, 64, 64, 0.3);
-  -webkit-backdrop-filter: 10px;
-          backdrop-filter: 10px;
-  border-radius: 30px;
-  margin-left: 15%;
-  margin-top: 25%;
-  padding: 50px;
-  width: 30%;
-  position: absolute;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: "Italiana";
-}
-
-.create-titanik {
-  margin-left: 25%;
-  color: #ffffff;
-  font-size: 25px;
-  font-family: "Italiana";
-}
-
-.succeed {
-  position: absolute;
-  margin-left: 5%;
-  width: 50%;
-  padding-top: 30%;
-  color: #ffffff;
-  font-size: 25px;
-  font-family: "Italiana";
-}
-
-.Leonardo-in-the-movie {
-  width: 40%;
-  margin-top: 300px;
-  border-radius: 50px;
-  margin-left: 15%;
-  padding: 50px;
-  background-color: #012d63;
-  font-size: 25px;
-  opacity: 0.5;
-  box-shadow: 0 0 20px rgb(136, 141, 169), 0 0 40px rgba(63, 35, 59, 0.6), 0 0 60px rgba(84, 4, 255, 0.6);
-  color: #ffffff;
-  font-family: "Italiana";
-}
-
-.Kate-in-the-movie {
-  width: 30%;
-  padding: 50px;
-  border-radius: 50px;
-  position: absolute;
-  margin-left: 65%;
-  background-color: palevioletred;
-  font-size: 25px;
-  opacity: 0.5;
-  box-shadow: 0 0 20px rgb(136, 141, 169), 0 0 40px rgba(63, 35, 59, 0.6), 0 0 60px rgba(118, 103, 87, 0.6);
-  color: #ffffff;
-  font-family: "Italiana";
-}
-
-.casting-film {
-  margin-left: 35%;
-  padding-top: 5%;
-  font-size: 40px;
-  font-family: "Inter";
-  color: #ffffff;
-}
-
-.gallery img {
-  margin-top: 50px;
-  height: 600px;
-  width: 28%;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .Supporting-actors-wrapper {
-  background: url(https://2.bp.blogspot.com/-VLQUpHqxms4/UUqQIbO6hzI/AAAAAAAAA4g/Mo8OhoaHMu0/s1600/Titanic+Ship.jpg) no-repeat center/cover;
+  background: url("https://2.bp.blogspot.com/-VLQUpHqxms4/UUqQIbO6hzI/AAAAAAAAA4g/Mo8OhoaHMu0/s1600/Titanic+Ship.jpg") no-repeat center/cover;
   height: 800px;
 }
-
-.Supporting-actors {
+.Supporting-actors-wrapper .block .Supporting-actors {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.3);
-  -webkit-backdrop-filter: 10px;
-          backdrop-filter: 10px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   border-radius: 10px;
   padding: 20px;
   font-size: 50px;
@@ -449,112 +480,38 @@ body {
   color: #fff;
   text-shadow: 2px 2px #000000;
 }
-
-.casting-titanic-actors {
+.Supporting-actors-wrapper .block .casting-titanic-actors {
   padding-top: 10%;
   display: flex;
   -moz-column-gap: 15%;
        column-gap: 15%;
 }
-
-.billy-zane-actor {
-  opacity: 0.5;
+.Supporting-actors-wrapper .block .casting-titanic-actors li {
   font-family: "Inter";
-  margin-top: 3%;
   font-weight: 400;
   border-radius: 10px;
-  height: 550px;
   font-size: 25px;
+  color: #fff;
+  opacity: 0.5;
+  margin-top: 3%;
+  padding: 10px 30px;
+  width: 40%;
+}
+.Supporting-actors-wrapper .block .casting-titanic-actors .billy-zane-actor {
   background-color: #2584bb;
-  padding: 30px;
-  width: 40%;
-  color: #fff;
+  height: 550px;
 }
-
-.kathy-bothes-actors {
-  margin-top: 3%;
-  opacity: 0.5;
-  font-family: "Inter";
-  font-weight: 400;
-  border-radius: 10px;
-  height: 500px;
-  font-size: 25px;
-  background-color: #1e1a4f;
-  padding: 10px;
-  width: 40%;
-  color: #fff;
-}
-
-.francis-fisher-acrors {
-  opacity: 0.5;
-  font-family: "Inter";
-  margin-top: 3%;
-  font-weight: 400;
-  border-radius: 10px;
-  height: 500px;
-  font-size: 25px;
+.Supporting-actors-wrapper .block .casting-titanic-actors .francis-fisher-acrors {
   background-color: #272c2f;
-  padding: 10px;
-  width: 40%;
-  color: #fff;
+  height: 500px;
 }
-
-.name-foto {
-  margin-left: 5%;
-  border-radius: 30px;
-  width: 90%;
-  font-family: "Inter";
-  font-weight: 200px;
-  box-shadow: 0 0 20px rgb(86, 52, 117), 0 0 40px rgba(48, 103, 166, 0.6), 0 0 60px rgba(94, 155, 220, 0.6);
-  transform: scale(1.1);
-  font-size: 30px;
-  color: #fff;
-}
-
-.img {
-  animation: look 5s ease-in-out;
-  margin-right: 40px;
+.Supporting-actors-wrapper .block .casting-titanic-actors .kathy-bothes-actors {
+  background-color: #1e1a4f;
+  height: 500px;
 }
 
 .block {
   margin-left: 50px;
-}
-
-.div-p {
-  text-align: center;
-  padding-top: 5%;
-  font-family: "Italiana";
-  font-weight: 200;
-  padding-top: 155;
-  padding-right: 733px;
-  font-size: 50px;
-  color: #fff;
-}
-
-.div-htwo {
-  padding-top: 2%;
-  transform: scale(1.1);
-  text-align: center;
-  width: 60%;
-  font-family: "Italiana";
-  font-weight: 200;
-  padding-top: 155;
-  font-size: 40px;
-  color: #705e5e;
-}
-
-.treiler-titanic {
-  margin-top: 5%;
-  margin-left: 15%;
-  width: 70rem;
-  height: 30rem;
-}
-
-.download-button {
-  color: #fff;
-  font-size: 1.8em;
-  background-color: #0b1623;
-  padding: 20px;
 }
 
 .footer {
@@ -838,5 +795,16 @@ body {
 @media (max-width: 391px) {
   .titanic-text-img h1 {
     font-size: 110px;
+  }
+}
+@media (max-width: 360px) {
+  .oskar-titanic-james-wrapper {
+    height: 370px;
+  }
+  .james-cameron-text-mobile {
+    height: 450px;
+  }
+  .disaster-titanic {
+    height: 450px;
   }
 }/*# sourceMappingURL=style.css.map */
