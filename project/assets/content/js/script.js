@@ -1,3 +1,4 @@
+let navLinks = document.getElementById('nav-links')
 let burger = document.getElementById('burger-menu').addEventListener('click', function () {
-    document.getElementById('nav-links').classList.toggle('active');
-  });
+  navLinks.classList.toggle('active')
+})
