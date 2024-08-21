@@ -130,85 +130,6 @@ body {
 			color: #fff;
 		}
 	}
-
-	@media (max-width: 768px) {
-		.Titanic-wrapper {
-			height: 2000px;
-			.block {
-				.gallery {
-					flex-wrap: wrap;
-				}
-				.gallery img {
-					margin-top: 50px;
-					height: 600px;
-					width: 100%;
-					border-radius: 10px;
-					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-				}
-			}
-		}
-		.burger-menu {
-			display: flex;
-		}
-		.nav-links {
-			display: none;
-			position: absolute;
-			top: 100px;
-			left: 0;
-			width: 100%;
-			flex-direction: column;
-			background-color: #012d63;
-			align-items: center;
-			.a-nav,
-			.nav-a {
-				width: 100%;
-				text-align: center;
-				padding: 15px 0;
-				font-size: 20px;
-			}
-		}
-		.nav-links.active {
-			display: flex;
-		}
-	}
-	.movies-wrapper {
-		height: 1000px;
-	}
-	.director {
-		display: none;
-	}
-	.perfectionism {
-		display: none;
-	}
-	.child-cameron {
-		display: none;
-	}
-	.succeed {
-		display: none;
-	}
-	.create-titanik {
-		display: none;
-	}
-	.Supporting-actors-wrapper {
-		display: none;
-	}
-	.director-titanic-wrapper {
-		display: none;
-	}
-	.Titanic-wrapper {
-		height: 135rem;
-		& .name-foto {
-			position: absolute;
-		}
-		& .gallery {
-			display: block;
-			& .img {
-				animation: none;
-				height: 40rem;
-				width: 100%;
-			}
-		}
-	}
 	.footer-wrapper {
 		height: 500px;
 		& .div-p {
@@ -882,5 +803,84 @@ body {
 	}
 	.disaster-titanic {
 		height: 450px;
+	}
+}
+
+@media (max-width: 768px) {
+	.Titanic-wrapper {
+		height: 2000px;
+		.block {
+			.gallery {
+				flex-wrap: wrap;
+			}
+			.gallery img {
+				margin-top: 50px;
+				height: 600px;
+				width: 100%;
+				border-radius: 10px;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			}
+		}
+	}
+	.burger-menu {
+		display: flex;
+	}
+	.nav-links {
+		display: none;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		width: 100%;
+		flex-direction: column;
+		background-color: #012d63;
+		align-items: center;
+		.a-nav,
+		.nav-a {
+			width: 100%;
+			text-align: center;
+			padding: 15px 0;
+			font-size: 20px;
+		}
+	}
+	.nav-links.active {
+		display: flex;
+	}
+}
+.movies-wrapper {
+	height: 1000px;
+}
+.director {
+	display: none;
+}
+.perfectionism {
+	display: none;
+}
+.child-cameron {
+	display: none;
+}
+.succeed {
+	display: none;
+}
+.create-titanik {
+	display: none;
+}
+.Supporting-actors-wrapper {
+	display: none;
+}
+.director-titanic-wrapper {
+	display: none;
+}
+.Titanic-wrapper {
+	height: 135rem;
+	& .name-foto {
+		position: absolute;
+	}
+	& .gallery {
+		display: block;
+		& .img {
+			animation: none;
+			height: 40rem;
+			width: 100%;
+		}
 	}
 }
